@@ -79,12 +79,12 @@ class Header extends Component {
                                             <div class="icon-box"><i class="flaticon-call-1"></i></div>
                                             <div class="text">Phone Number</div>
 
-                                            <h4><a target='_blank' href={'tel:+98787687676'}>+987 876 876 76</a></h4>
+                                            <h4><a target='_blank' rel='noopener noreferrer' href="tel:+2349013722775">+2349013722775</a></h4>
                                         </div>
                                         <div class="single-info">
                                             <div class="icon-box"><i class="flaticon-email-4"></i></div>
                                             <div class="text">Email Address</div>
-                                            <h4><a href={'mailto:info@webmail.com'}>info@webmail.com</a></h4>
+                                            <h4><a target='_blank' rel='noopener noreferrer' href="mailto:edojobs@edostate.gov.ng">edojobs@edostate.gov.ng</a></h4>
                                         </div>
                                     </div>
                                 </div>

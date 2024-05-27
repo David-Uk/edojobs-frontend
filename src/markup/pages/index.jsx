@@ -417,7 +417,7 @@ class Index extends Component {
                                 <div class="content-box">
                                     <div class="sec-title">
                                         <div class="sub-title">Why Choose Us</div>
-                                        <h2>Why Should You <br />Choose Us ?</h2>
+                                        <h3>Why Should You <br />Choose Us?</h3>
                                     </div>
                                     <Tab.Container defaultActiveKey="first">
                                         <Nav variant="pills" className="nav nav-tabs tab-btn-style-one">
@@ -428,26 +428,26 @@ class Index extends Component {
                                                 <Nav.Link eventKey="second"><span>Our Vision</span></Nav.Link>
                                             </Nav.Item>
                                             <Nav.Item>
-                                                <Nav.Link eventKey="third"><span>Our Value</span></Nav.Link>
+                                                <Nav.Link eventKey="third"><span>Our Mandate</span></Nav.Link>
                                             </Nav.Item>
                                         </Nav>
                                         <Tab.Content className="tabs-content">
                                             <Tab.Pane eventKey="first" className="fadeInUp animated">
                                                 <div class="clearfix">
-                                                    <div class="image"><img src={require('../../assets/images/resource/image-4.jpg')} alt="" /></div>
-                                                    <div class="text"><p>Lorem ipsum dolor sit amet, consectetur adipisici ng elit, sed do eiusmod tempor incididunt ut labo re et dolore magna aliqua. Ut enim ad minim veni am, quis nostrud exercitation ullamco.</p><p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error</p></div>
+                                                    <div class="image"><img src={require('../../assets/images/photo/edgh.jpg')} height={100} width={100} alt="" /></div>
+                                                    <div class="text"><p>To provide supply of and attract demand for highly skilled workforce in Edo State.</p></div>
                                                 </div>
                                             </Tab.Pane>
                                             <Tab.Pane eventKey="second" className="fadeInUp animated">
                                                 <div class="clearfix">
                                                     <div class="image"><img src={require('../../assets/images/resource/image-4.jpg')} alt="" /></div>
-                                                    <div class="text"><p>Lorem ipsum dolor sit amet, consectetur adipisici ng elit, sed do eiusmod tempor incididunt ut labo re et dolore magna aliqua. Ut enim ad minim veni am, quis nostrud exercitation ullamco.</p><p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error</p></div>
+                                                    <div class="text"><p>To reduce and eradicate unemployment in Edo State through job creation and skills development.</p></div>
                                                 </div>
                                             </Tab.Pane>
                                             <Tab.Pane eventKey="third" className="fadeInUp animated">
                                                 <div class="clearfix">
                                                     <div class="image"><img src={require('../../assets/images/resource/image-4.jpg')} alt="" /></div>
-                                                    <div class="text"><p>Lorem ipsum dolor sit amet, consectetur adipisici ng elit, sed do eiusmod tempor incididunt ut labo re et dolore magna aliqua. Ut enim ad minim veni am, quis nostrud exercitation ullamco.</p><p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error</p></div>
+                                                    <div class="text"><p>Reduce unemployment through a coordinated and effective programme that will produce and supply highly skilled labour.</p></div>
                                                 </div>
                                             </Tab.Pane>
                                         </Tab.Content>
@@ -459,8 +459,8 @@ class Index extends Component {
                             </div>
                             <div class="col-lg-6">
                                 <div class="image-wrapper">
-                                    <div class="image-one"><img src={require('../../assets/images/resource/image-6.jpg')} alt="" /></div>
-                                    <div class="image-two"><img src={require('../../assets/images/resource/image-5.jpg')} alt="" /></div>
+                                    <div class="image-one"><img src={require('../../assets/images/photo/slide4.jpeg')} alt="" /></div>
+                                    <div class="image-two"><img src={require('../../assets/images/photo/slide5.jpeg')} alt="" /></div>
                                 </div>
                             </div>
                         </div>
@@ -468,242 +468,9 @@ class Index extends Component {
                 </section>
 
                 {/* <!-- Team Section --> */}
-                <section class="team-section" style={{ backgroundImage: "url(" + teambg1 + ")" }}>
-                    <div class="auto-container">
-                        <div class="sec-title text-center">
-                            <div class="sub-title">Our Team</div>
-                            <h2>Leadership Team</h2>
-                        </div>
-                        <div class="row">
-                            {/* <!-- Team Block One --> */}
-                            <div class="col-lg-4 team-block-one wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
-                                <div class="inner-box">
-                                    <div class="image"><img src={require('../../assets/images/resource/team-1.jpg')} alt="" /></div>
-                                    <div class="content">
-                                        <div class="designation">Founder</div>
-                                        <h3>Rosalina D. William</h3>
-                                        <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* <!-- Team Block One --> */}
-                            <div class="col-lg-4 team-block-one wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
-                                <div class="inner-box">
-                                    <div class="image"><img src={require('../../assets/images/resource/team-2.jpg')} alt="" /></div>
-                                    <div class="content">
-                                        <div class="designation">CEO</div>
-                                        <h3>Velavos H. DesuJa</h3>
-                                        <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* <!-- Team Block One --> */}
-                            <div class="col-lg-4 team-block-one wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
-                                <div class="inner-box">
-                                    <div class="image"><img src={require('../../assets/images/resource/team-1.jpg')} alt="" /></div>
-                                    <div class="content">
-                                        <div class="designation">Developer</div>
-                                        <h3>Abdur Rahman J.</h3>
-                                        <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+
 
                 {/* <!-- Contact Section --> */}
-                <section class="contact-section">
-                    <div class="auto-container">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="sec-title">
-                                    <div class="sub-title">Write Here</div>
-                                    <h2>Get In Touch</h2>
-                                </div>
-                                {/* <!-- Contact Form--> */}
-                                <div class="contact-form">
-                                    <form method="post" action="http://azim.commonsupport.com/Finandox/sendemail.php" id="contact-form">
-                                        <div class="row clearfix">
-                                            <div class="col-md-12 form-group">
-                                                <label for="name">Enter your name</label>
-                                                <input type="text" name="username" id="name" placeholder="Enter name here......" required="" />
-                                                <i class="fas fa-user"></i>
-                                            </div>
-
-                                            <div class="col-md-12 form-group">
-                                                <label for="email">Enter your email</label>
-                                                <input type="email" name="email" id="email" placeholder="Enter email here......" required="" />
-                                                <i class="fas fa-envelope"></i>
-                                            </div>
-
-                                            <div class="col-md-12 form-group">
-                                                <label for="message">Enter your message</label>
-                                                <textarea name="message" id="message" placeholder="Enter message here......"></textarea>
-                                                <i class="fas fa-edit"></i>
-                                            </div>
-
-                                            <div class="col-md-12 form-group">
-                                                <button class="theme-btn btn-style-one" type="submit" name="submit-form"><span class="btn-title">Get In Touch</span></button>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="sec-title">
-                                    <div class="sub-title">Get Us Here</div>
-                                    <h2>Contact Us</h2>
-                                </div>
-                                <div class="contact-info">
-                                    <div class="border-box">
-                                        <div class="border_top"></div>
-                                        <div class="border_middile"></div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="info-column col-md-6">
-                                            <div class="icon-box">
-                                                <div class="icon"><span class="flaticon-email-6"></span></div>
-                                                <h3>Email Address</h3>
-                                                <ul>
-                                                    <li><Link to={'/mailto:info@webmail.com'}>info@webmail.com</Link></li>
-                                                    <li><Link to={'/mailto:jobs@exampleco.com'}>jobs@exampleco.com</Link></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="info-column col-md-6">
-                                            <div class="icon-box">
-                                                <div class="icon"><span class="flaticon-call-1"></span></div>
-                                                <h3>Phone Number</h3>
-                                                <ul>
-                                                    <li><Link to={'/tel:+8976765654654'}>+897 676 5654 654</Link></li>
-                                                    <li><Link to={'/tel:+908(097)56476576'}>+908(097) 564 765 76</Link></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="info-column col-md-6">
-                                            <div class="icon-box">
-                                                <div class="icon"><span class="flaticon-location"></span></div>
-                                                <h3>Office Address</h3>
-                                                <ul>
-                                                    <li>12/A, Romania City Town Hall <br />New Joursey, UK</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="info-column col-md-6">
-                                            <div class="icon-box">
-                                                <div class="icon"><span class="flaticon-worldwide"></span></div>
-                                                <h3>Web Connect</h3>
-                                                <ul>
-                                                    <li><Link to={'/http://example.com/'}>example.com</Link></li>
-                                                    <li><Link to={'/http://jobs.example.com/'}>jobs.example.com</Link></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-
-                {/* <!-- News Section --> */}
-                <section class="news-section">
-                    <div class="sec-bg" style={{ backgroundImage: "url(" + newsbg1 + ")" }}></div>
-                    <div class="auto-container">
-                        <div class="sec-title text-center light">
-                            <div class="sub-title">News</div>
-                            <h2>News From Resource</h2>
-                        </div>
-                        <div class="row">
-                            {/* <!-- News Block One --> */}
-                            <div class="news-block-one col-lg-4 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
-                                <div class="inner-box">
-                                    <div class="image"><Link to={'/#'}><img src={require('../../assets/images/resource/news-1.jpg')} alt="" /></Link></div>
-                                    <div class="lower-content">
-                                        <div class="category">Business</div>
-                                        <ul class="post-meta">
-                                            <li><Link to={'/#'}><i class="far fa-calendar-alt"></i>24th March 2020</Link></li>
-                                            <li><Link to={'/#'}><i class="far fa-user"></i>By Admin</Link></li>
-                                        </ul>
-                                        <h3><Link to={'/blog-details'}>UX is best solution for your <br />business & make noise.</Link></h3>
-                                        <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod temp or incididunt ut labore et dolore</div>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* <!-- News Block One --> */}
-                            <div class="news-block-one col-lg-4 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
-                                <div class="inner-box">
-                                    <div class="image"><Link to={'/#'}><img src={require('../../assets/images/resource/news-2.jpg')} alt="" /></Link></div>
-                                    <div class="lower-content">
-                                        <div class="category">Business</div>
-                                        <ul class="post-meta">
-                                            <li><Link to={'/#'}><i class="far fa-calendar-alt"></i>26th March 2020</Link></li>
-                                            <li><Link to={'/#'}><i class="far fa-user"></i>By Admin</Link></li>
-                                        </ul>
-                                        <h3><Link to={'/blog-details'}>Business consultant is involved in the planning.</Link></h3>
-                                        <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod temp or incididunt ut labore et dolore</div>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* <!-- News Block One --> */}
-                            <div class="news-block-one col-lg-4 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
-                                <div class="inner-box">
-                                    <div class="image"><Link to={'/#'}><img src={require('../../assets/images/resource/news-3.jpg')} alt="" /></Link></div>
-                                    <div class="lower-content">
-                                        <div class="category">Business</div>
-                                        <ul class="post-meta">
-                                            <li><Link to={'/#'}><i class="far fa-calendar-alt"></i>28th March 2020</Link></li>
-                                            <li><Link to={'/#'}><i class="far fa-user"></i>By Admin</Link></li>
-                                        </ul>
-                                        <h3><Link to={'/blog-details'}>Business consultant is a professional who analyzes.</Link></h3>
-                                        <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod temp or incididunt ut labore et dolore</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                {/* <!-- Award Section --> */}
-                <section class="award-section pt-0">
-                    <div class="year">2020</div>
-                    <div class="auto-container">
-                        <div class="sec-title text-center">
-                            <div class="sub-title">Awards</div>
-                            <h2>Get Awards</h2>
-                        </div>
-                        <div class="award-image">
-                            <div class="row align-items-center">
-                                <div class="col-lg-4">
-                                    <div class="image wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms"><img src={require('../../assets/images/resource/award-1.png')} alt="" /></div>
-                                    <div class="image wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms"><img src={require('../../assets/images/resource/award-2.png')} alt="" /></div>
-                                </div>
-                                <div class="col-lg-4 order-lg-2">
-                                    <div class="image wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms"><img src={require('../../assets/images/resource/award-3.png')} alt="" /></div>
-                                    <div class="image wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms"><img src={require('../../assets/images/resource/award-4.png')} alt="" /></div>
-                                </div>
-                                <div class="col-lg-4 wow zoomIn" data-wow-delay="200ms" data-wow-duration="1200ms">
-                                    <div class="image"><img src={require('../../assets/images/resource/award-5.png')} alt="" /></div>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="feature-image">
-                            <div class="image-one"><img src={require('../../assets/images/resource/image-7.jpg')} alt="" /></div>
-                            <div class="image-two"><img src={require('../../assets/images/resource/image-8.jpg')} alt="" /></div>
-                            <div class="image-three"><img src={require('../../assets/images/resource/image-9.jpg')} alt="" /></div>
-                        </div>
-                    </div>
-                </section>
-
-
-
-
-
-
-
 
 
                 <Footer />

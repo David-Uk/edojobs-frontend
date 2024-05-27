@@ -44,7 +44,7 @@ class HomeSlider2 extends Component {
                         <div key={index} className="slider-content" style={{ background: `url('${slide.image}') no-repeat center center` }}>
                             <div className="inner text-center inner-2">
                                 <h1>{slide.title}</h1>
-                                <h2>{slide.finan} <span>{slide.dox} </span></h2>
+                                {/* <h2>{slide.finan} <span>{slide.dox} </span></h2> */}
                                 <div class="btn-box">
                                     <Link to={'/#'} class="theme-btn btn-style-one"><span class="btn-title">{slide.btnService}</span>
                                     </Link><Link to={'/#'} class="theme-btn btn-style-two"><span class="btn-title">{slide.btnLearn}</span></Link></div>
