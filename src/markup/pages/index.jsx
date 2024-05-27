@@ -197,7 +197,7 @@ class Index extends Component {
                 </section>
 
                 {/* <!-- Services Section --> */}
-                <section class="services-section">
+                {/* <section class="services-section">
                     <div class="auto-container">
                         <div class="wrapper-box">
                             <div class="left-column">
@@ -224,7 +224,6 @@ class Index extends Component {
                                 </div>
                             </div>
                             <div class="right-column">
-                                {/* <!-- Fact Counter --> */}
                                 <div class="fact-counter">
                                     <div class="border-box">
                                         <div class="border_top"></div>
@@ -233,7 +232,6 @@ class Index extends Component {
                                     </div>
                                     <div class="row">
 
-                                        {/* <!--Column--> */}
                                         <div class="column counter-column col-md-6">
                                             <div class="inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                                                 <div class="content">
@@ -259,7 +257,6 @@ class Index extends Component {
                                             </div>
                                         </div>
 
-                                        {/* <!--Column--> */}
                                         <div class="column counter-column col-md-6">
                                             <div class="inner wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
                                                 <div class="content">
@@ -285,7 +282,6 @@ class Index extends Component {
                                             </div>
                                         </div>
 
-                                        {/* <!--Column--> */}
                                         <div class="column counter-column col-md-6">
                                             <div class="inner wow fadeInLeft" data-wow-delay="600ms" data-wow-duration="1500ms">
                                                 <div class="content">
@@ -311,7 +307,6 @@ class Index extends Component {
                                             </div>
                                         </div>
 
-                                        {/* <!--Column--> */}
                                         <div class="column counter-column col-md-6">
                                             <div class="inner wow fadeInLeft" data-wow-delay="900ms" data-wow-duration="1500ms">
                                                 <div class="content">
@@ -337,7 +332,6 @@ class Index extends Component {
                                             </div>
                                         </div>
 
-                                        {/* <!--Column--> */}
                                         <div class="column counter-column col-md-6">
                                             <div class="inner wow fadeInLeft" data-wow-delay="600ms" data-wow-duration="1500ms">
                                                 <div class="content">
@@ -363,7 +357,6 @@ class Index extends Component {
                                             </div>
                                         </div>
 
-                                        {/* <!--Column--> */}
                                         <div class="column counter-column col-md-6">
                                             <div class="inner wow fadeInLeft" data-wow-delay="900ms" data-wow-duration="1500ms">
                                                 <div class="content">
@@ -403,7 +396,7 @@ class Index extends Component {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
 
 
 
