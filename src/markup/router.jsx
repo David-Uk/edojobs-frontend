@@ -19,8 +19,8 @@ import Portfolio1 from './pages/portfolio-1'
 import Portfolio2 from './pages/portfolio-2'
 import PortfolioDetails from './pages/portfolio-details'
 import ProductDetails from './pages/product-details'
-import Services1 from './pages/services-1'
-import Services2 from './pages/services-2'
+import Services from './pages/services'
+import Units from './pages/units'
 import ServicesDetails from './pages/services-details'
 import Shop from './pages/shop'
 import ShoppingCart from './pages/shopping-cart'
@@ -56,14 +56,14 @@ const Router = () => {
                     <Route path='/portfolio-2' component={Portfolio2} />
                     <Route path='/portfolio-details' component={PortfolioDetails} />
                     <Route path='/product-details' component={ProductDetails} />
-                    <Route path='/services-1' component={Services1} />
-                    <Route path='/services-2' component={Services2} />
+                    <Route path='/services' component={Services} />
                     <Route path='/services-details' component={ServicesDetails} />
                     <Route path='/shop' component={Shop} />
                     <Route path='/shopping-cart' component={ShoppingCart} />
                     <Route path='/team-details' component={TeamDetails} />
                     <Route path='/team' component={Team} />
                     <Route path='/test' component={Testimonial1} />
+                    <Route path='/units' component={Units} />
 
                 </Switch>
 

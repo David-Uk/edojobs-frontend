@@ -14,22 +14,22 @@ class Header4 extends Component {
         }
 
         sidenavbtn.addEventListener('click', addFunc);
-    
+
 
         var btn2 = document.querySelector('.mobile-nav-toggler-two');
         var aaa2 = document.querySelector('.side-menu-visible');
         var removeclass1 = document.querySelector('.side-menu-overlay');
-        
+
         function toggleFunc() {
             return aaa2.classList.toggle("side-menu-visible-s2");
-        }         
+        }
         function removeclass() {
             return aaa2.classList.remove("side-menu-visible-s2");
-        }   
+        }
 
         btn2.addEventListener('click', toggleFunc);
         removeclass1.addEventListener('click', removeclass);
-        
+
     }
 
 
@@ -46,7 +46,7 @@ class Header4 extends Component {
                     <div class="mobile-menu-two">
                         <div class="auto-container">
                             <div class="wrapper-box">
-                                <div class="logo"><img src={require('../../assets/images/logo.png')} alt=""/></div>
+                                <div class="logo"><img src={require('../../assets/images/logo.png')} alt="" /></div>
                                 {/* <!--Mobile Navigation Toggler--> */}
                                 <div class="mobile-nav-toggler-two"><span class="icon fal fa-bars"></span></div>
                             </div>
@@ -57,7 +57,7 @@ class Header4 extends Component {
                     <div class="side-menu">
                         <div class="side-menu-resize"><span class="fa fa-angle-right"></span></div>
                         <nav class="menu-box">
-                            <div class="nav-logo"><Link to={'/index-4'}><img src={require('../../assets/images/logo.png')} alt="" title=""/></Link></div>
+                            <div class="nav-logo"><Link to={'/index-4'}><img src={require('../../assets/images/logo.png')} alt="" title="" /></Link></div>
                             <div class="menu-outer">
                                 <ul class="navigation clearfix">
                                     <li class="dropdown"><Link to={'/#'}>Home</Link>
@@ -81,8 +81,8 @@ class Header4 extends Component {
                                     <li><Link to={'/about'} >About Us</Link></li>
                                     <li class="dropdown"><Link to={'/#'}>Services</Link>
                                         <ul>
-                                            <li><Link to={'/services-1'}>Services One</Link></li>
-                                            <li><Link to={'/services-2'}>Services Two</Link></li>
+                                            <li><Link to={'/services'}>Services One</Link></li>
+                                            <li><Link to={'/units'}>Services Two</Link></li>
                                             <li><Link to={'/services-details'}>Services Details</Link></li>
                                         </ul>
                                     </li>
@@ -105,7 +105,7 @@ class Header4 extends Component {
                                             <li><Link to={'/careers'}>Careers</Link></li>
                                             <li><Link to={'/team'}>Team</Link></li>
                                             <li><Link to={'/team-details'}>Team Details</Link></li>
-                                            
+
                                             <li class="dropdown"><Link to={'/#'}>Shop</Link>
                                                 <ul>
                                                     <li><Link to={'/shop'}>Products</Link></li>
@@ -118,7 +118,7 @@ class Header4 extends Component {
                                             <li><Link to={'/404'}>404</Link></li>
                                         </ul>
                                     </li>
-                                    
+
                                     <li><Link to={'/contact'}>Contact</Link></li>
                                 </ul>
                             </div>
@@ -140,9 +140,9 @@ class Header4 extends Component {
                     <div class="side-menu-overlay"></div>
                 </header>
                 {/* <!-- End Main Header --> */}
-                    
-                    
-                
+
+
+
 
             </>
         )

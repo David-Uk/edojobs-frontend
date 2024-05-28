@@ -9293,6 +9293,17 @@ img.lazy-image.loaded {
 	opacity: 0.08;
 }
 
+.item-card {
+	-webkit-box-shadow: -2px -1px 19px 4px rgba(163, 160, 163, 1);
+	-moz-box-shadow: -2px -1px 19px 4px rgba(163, 160, 163, 1);
+	box-shadow: -2px -1px 19px 4px rgba(163, 160, 163, 1);
+	border-radius: 2em;
+}
+
+.item-card.icon {
+	margin-top: 1em;
+}
+
 .cursor-follower {
 	position: absolute;
 	background-color: rgba(255, 255, 255, 0.3);

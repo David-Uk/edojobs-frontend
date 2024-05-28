@@ -46,8 +46,8 @@ class ArabicMenu extends Component {
                         </li>
                         <li class="dropdown"><Link to={'/#'}>خدمات  </Link>
                             <ul>
-                                <li><Link to={'/services-1'}>خدمات واحد  </Link></li>
-                                <li><Link to={'/services-2'}>خدمات اثنين  </Link></li>
+                                <li><Link to={'/services'}>خدمات واحد  </Link></li>
+                                <li><Link to={'/units'}>خدمات اثنين  </Link></li>
                                 <li><Link to={'/services-details'}>تفاصيل الخدمات  </Link></li>
                             </ul>
                         </li>
