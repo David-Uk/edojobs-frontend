@@ -6,7 +6,7 @@ import Footer from '../layout/footer';
 import Brand1 from '../element/brand1';
 
 
-const aboutbg = require('./../../assets/images/background/image-11.jpg');
+const aboutbg = require('./../../assets/images/photo/aboutedojobs.jpeg');
 
 
 
@@ -20,26 +20,7 @@ class About extends Component {
                 <div id="search-popup" class="search-popup">
                     <div class="close-search theme-btn"><span class="flaticon-cancel"></span></div>
                     <div class="popup-inner">
-                        <div class="overlay-layer"></div>
-                        <div class="search-form">
-                            <form method="post" action="http://azim.commonsupport.com/Finandox/index.html">
-                                <div class="form-group">
-                                    <fieldset>
-                                        <input type="search" class="form-control" name="search-input" value="" placeholder="Search Here" required />
-                                        <input type="submit" value="Search Now!" class="theme-btn" />
-                                    </fieldset>
-                                </div>
-                            </form>
-                            <br />
-                            <h3>Recent Search Keywords</h3>
-                            <ul class="recent-searches">
-                                <li><Link to={'/#'}>Finance</Link></li>
-                                <li><Link to={'/#'}>Idea</Link></li>
-                                <li><Link to={'/#'}>Service</Link></li>
-                                <li><Link to={'/#'}>Growth</Link></li>
-                                <li><Link to={'/#'}>Plan</Link></li>
-                            </ul>
-                        </div>
+                        {/* <div class="overlay-layer"></div> */}
 
                     </div>
                 </div>
@@ -47,7 +28,7 @@ class About extends Component {
 
                 <section class="page-banner">
                     <div className="page-banner-bg" style={{ backgroundImage: "url(" + aboutbg + ")" }}></div>
-                    <div class="bottom-rotten-curve alternate"></div>
+                    {/* <div class="bottom-rotten-curve alternate"></div> */}
 
                     <div class="auto-container">
                         <h1>About Us</h1>
@@ -65,30 +46,40 @@ class About extends Component {
                     <div class="auto-container">
                         <div class="row align-items-center">
                             <div class="col-lg-6">
-                                <div class="image-wrapper">
-                                    <div class="image-one">
-                                        <img src={require('../../assets/images/resource/image-10.jpg')} alt="" />
+                                <div class="content-box wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
+                                    <div class="sec-title">
+                                        <div class="sub-title">About Us</div>
+                                        {/* <h2>We Work With <br />You To Address</h2> */}
+                                        <div class="text">
+                                            <p>
+                                                The Edo State Skills Development Agency (Edojobs) was set up by the Edo State Government to “provide the supply of and attract the demand for the highly skilled talent in Edo State.” The agency is a fulfilment of the mandate of Governor Godwin Obaseki’s administration to Edo people to create 200,000 jobs in his first term in office.
+
+                                                The vision was to go beyond job creation to unlock the potential of the Edo youths by igniting the hope within them and ensuring that they could excel on their chosen career path.
+
+                                                Edojobs started in 2016 with an enumeration of citizens who were actively in search of a job; this yielded over 210,000 registrations, and in 2017, Edojobs was officially launched. By 2019, Edojobs had set up Edo Innovates, Edo Production Centre and many other projects and programmes that were actively connecting young people to jobs and building a community that brought hope and opportunity to the industrious young people.
+
+                                                Edojobs became an agency in 2019 when it was signed into law and Ukinebo Dare was appointed the pioneering Managing Director of the agency. Since then, Edojobs has delivered on this vision and exceeded expectations and covered milestones.
+
+                                                Today, the young and old both in rural and urban communities have benefitted from different programmes ranging from innovative and in-demand skills such as software engineering, fashion designing, digital skills, catering and event planning, employability training, agriculture for sustainable food production and much more.
+                                            </p></div>
+                                    </div>
+                                    <div class="author-info">
+                                        <div class="wrapper-box">
+                                            <h2>His Excellency, Godwin Obaseki</h2>
+                                            <div class="designation">Governor of Edo State</div>
+                                            {/* <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod..</div> */}
+                                        </div>
+                                        {/* <div class="signature"><img src={require('../../assets/images/resource/signature-2.png')} alt="" /></div> */}
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
-                                <div class="content-box">
-                                    <div class="sec-title">
-                                        <div class="sub-title">About Us</div>
-                                        <h2>We Work With <br />You To Address</h2>
-                                        <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
-                                    </div>
-                                    <div class="author-info">
-                                        <div class="wrapper-box">
-                                            <h2>Rosalina D. William</h2>
-                                            <div class="designation">Founder</div>
-                                            <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod..</div>
-                                        </div>
-                                        <div class="signature"><img src={require('../../assets/images/resource/signature.png')} alt="" /></div>
+                                <div class="image-wrapper wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
+                                    <div class="image-one">
+                                        <img src={require('../../assets/images/photo/obaseki.png')} alt="" />
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </section>
@@ -96,228 +87,56 @@ class About extends Component {
 
 
                 {/* History Section */}
-                <section class="history-section">
-                    <div class="auto-container">
-                        <div class="sec-title text-center light">
-                            <div class="sub-title">History</div>
-                            <h2>Our Journey</h2>
-                        </div>
-                        <Tab.Container defaultActiveKey="first">
-                            <Nav className="nav-tabs tab-btn-style-one">
-                                <Nav.Item>
-                                    <Nav.Link eventKey="first">2020</Nav.Link>
-                                </Nav.Item>
-                                <Nav.Item>
-                                    <Nav.Link eventKey="second">2015</Nav.Link>
-                                </Nav.Item>
-                                <Nav.Item>
-                                    <Nav.Link eventKey="third">2010</Nav.Link>
-                                </Nav.Item>
-                                <Nav.Item>
-                                    <Nav.Link eventKey="fourth">2005</Nav.Link>
-                                </Nav.Item>
-                                <Nav.Item>
-                                    <Nav.Link eventKey="fifth">2000</Nav.Link>
-                                </Nav.Item>
-                            </Nav>
-                            <Tab.Content>
-                                <Tab.Pane eventKey="first" className=" fadeInUp animated">
-                                    <div class="row align-items-center">
-                                        <div class="col-lg-6">
-                                            <div class="image"><img src={require('../../assets/images/resource/image-18.jpg')} alt="" /></div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="content pl-lg-4">
-                                                <div class="sec-title light">
-                                                    <div class="sub-title">Get Rewards</div>
-                                                    <h2>Just Proved Our Selves <br />For Great Works.</h2>
-                                                </div>
-                                                <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</div>
-                                                <div class="link-btn"><Link to={'/#'} class="theme-btn btn-style-one"><span class="btn-title">Learn More</span></Link></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </Tab.Pane>
-                                <Tab.Pane eventKey="second" className=" fadeInUp animated">
-                                    <div class="row align-items-center">
-                                        <div class="col-lg-6">
-                                            <div class="image"><img src={require('../../assets/images/resource/image-18.jpg')} alt="" /></div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="content pl-lg-4">
-                                                <div class="sec-title light">
-                                                    <div class="sub-title">Get Rewards</div>
-                                                    <h2>Just Proved Our Selves <br />For Great Works.</h2>
-                                                </div>
-                                                <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</div>
-                                                <div class="link-btn"><Link to={'/#'} class="theme-btn btn-style-one"><span class="btn-title">Learn More</span></Link></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </Tab.Pane>
-                                <Tab.Pane eventKey="third" className=" fadeInUp animated">
-                                    <div class="row align-items-center">
-                                        <div class="col-lg-6">
-                                            <div class="image"><img src={require('../../assets/images/resource/image-18.jpg')} alt="" /></div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="content pl-lg-4">
-                                                <div class="sec-title light">
-                                                    <div class="sub-title">Get Rewards</div>
-                                                    <h2>Just Proved Our Selves <br />For Great Works.</h2>
-                                                </div>
-                                                <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</div>
-                                                <div class="link-btn"><Link to={'/#'} class="theme-btn btn-style-one"><span class="btn-title">Learn More</span></Link></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </Tab.Pane>
-                                <Tab.Pane eventKey="fourth" className=" fadeInUp animated">
-                                    <div class="row align-items-center">
-                                        <div class="col-lg-6">
-                                            <div class="image"><img src={require('../../assets/images/resource/image-18.jpg')} alt="" /></div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="content pl-lg-4">
-                                                <div class="sec-title light">
-                                                    <div class="sub-title">Get Rewards</div>
-                                                    <h2>Just Proved Our Selves <br />For Great Works.</h2>
-                                                </div>
-                                                <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</div>
-                                                <div class="link-btn"><Link to={'/#'} class="theme-btn btn-style-one"><span class="btn-title">Learn More</span></Link></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </Tab.Pane>
-                                <Tab.Pane eventKey="fifth" className=" fadeInUp animated">
-                                    <div class="row align-items-center">
-                                        <div class="col-lg-6">
-                                            <div class="image"><img src={require('../../assets/images/resource/image-18.jpg')} alt="" /></div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="content pl-lg-4">
-                                                <div class="sec-title light">
-                                                    <div class="sub-title">Get Rewards</div>
-                                                    <h2>Just Proved Our Selves <br />For Great Works.</h2>
-                                                </div>
-                                                <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</div>
-                                                <div class="link-btn"><Link to={'/#'} class="theme-btn btn-style-one"><span class="btn-title">Learn More</span></Link></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </Tab.Pane>
-                            </Tab.Content>
-                        </Tab.Container>
-                    </div>
-                </section>
 
                 {/* Team Section */}
-                <section class="team-section">
-                    <div class="auto-container">
-                        <div class="sec-title text-center">
-                            <div class="sub-title">Our Team</div>
-                            <h2>Leadership Team</h2>
-                        </div>
-                        <div class="row">
-                            {/* Team Block One */}
-                            <div class="col-lg-4 team-block-one">
-                                <div class="inner-box">
-                                    <div class="image"><img src={require('../../assets/images/resource/team-1.jpg')} alt="" /></div>
-                                    <div class="content">
-                                        <div class="designation">Founder</div>
-                                        <h3>Rosalina D. William</h3>
-                                        <ul class="social-links">
-                                            <li><Link to={'/#'}><span class="fab fa-facebook-f"></span></Link></li>
-                                            <li><Link to={'/#'}><span class="fab fa-twitter"></span></Link></li>
-                                            <li><Link to={'/#'}><span class="fab fa-behance"></span></Link></li>
-                                            <li><Link to={'/#'}><span class="fab fa-youtube"></span></Link></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* Team Block One */}
-                            <div class="col-lg-4 team-block-one">
-                                <div class="inner-box">
-                                    <div class="image"><img src={require('../../assets/images/resource/team-2.jpg')} alt="" /></div>
-                                    <div class="content">
-                                        <div class="designation">CEO</div>
-                                        <h3>Velavos H. DesuJa</h3>
-                                        <ul class="social-links">
-                                            <li><Link to={'/#'}><span class="fab fa-facebook-f"></span></Link></li>
-                                            <li><Link to={'/#'}><span class="fab fa-twitter"></span></Link></li>
-                                            <li><Link to={'/#'}><span class="fab fa-behance"></span></Link></li>
-                                            <li><Link to={'/#'}><span class="fab fa-youtube"></span></Link></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* Team Block One */}
-                            <div class="col-lg-4 team-block-one">
-                                <div class="inner-box">
-                                    <div class="image"><img src={require('../../assets/images/resource/team-3.jpg')} alt="" /></div>
-                                    <div class="content">
-                                        <div class="designation">Developer</div>
-                                        <h3>Abdur Rahman J.</h3>
-                                        <ul class="social-links">
-                                            <li><Link to={'/#'}><span class="fab fa-facebook-f"></span></Link></li>
-                                            <li><Link to={'/#'}><span class="fab fa-twitter"></span></Link></li>
-                                            <li><Link to={'/#'}><span class="fab fa-behance"></span></Link></li>
-                                            <li><Link to={'/#'}><span class="fab fa-youtube"></span></Link></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
 
                 {/* Services Section Four */}
                 <section class="services-section-four services-section-about">
                     <div class="auto-container">
                         <div class="sec-title text-center">
-                            <div class="sub-title">Features</div>
-                            <h2>Core Features</h2>
+                            <div class="sub-title">What we do</div>
+                            <h3>Services</h3>
                         </div>
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="icon-box">
                                     <div class="icon"><img src={require('../../assets/images/icons/icon-3.png')} alt="" /></div>
-                                    <h2>Capital Market</h2>
+                                    <h4>JOB MATCHING & PLACEMENT</h4>
                                     <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="icon-box">
                                     <div class="icon"><img src={require('../../assets/images/icons/icon-21.png')} alt="" /></div>
-                                    <h2>Finance Division</h2>
+                                    <h4>Finance Division</h4>
                                     <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="icon-box">
                                     <div class="icon"><img src={require('../../assets/images/icons/icon-4.png')} alt="" /></div>
-                                    <h2>Insurance & Planning</h2>
+                                    <h4>Insurance & Planning</h4>
                                     <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="icon-box">
                                     <div class="icon"><img src={require('../../assets/images/icons/icon-22.png')} alt="" /></div>
-                                    <h2>Family Case</h2>
+                                    <h4>Family Case</h4>
                                     <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="icon-box">
                                     <div class="icon"><img src={require('../../assets/images/icons/icon-5.png')} alt="" /></div>
-                                    <h2>Financial Strategy</h2>
+                                    <h4>Financial Strategy</h4>
                                     <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="icon-box">
                                     <div class="icon"><img src={require('../../assets/images/icons/icon-23.png')} alt="" /></div>
-                                    <h2>Financial Planning</h2>
+                                    <h4>Financial Planning</h4>
                                     <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
                                 </div>
                             </div>

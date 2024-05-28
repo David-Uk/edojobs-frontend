@@ -29,12 +29,19 @@ class Menu extends Component {
                                 </li>
                             </ul> */}
                         </li>
-                        <li><Link to={'/about'}>About Us</Link></li>
+                        {/* <li><Link to={'/about'}>About Us</Link></li> */}
+                        <li class="dropdown"><Link to={'#'}>About</Link>
+                            <ul>
+                                <li><Link to={'/about'}>About Us</Link></li>
+                                <li><Link to={'/faq'}>FAQ</Link></li>
+                                {/* <li><Link to={'/services-details'}>Services Details</Link></li> */}
+                            </ul>
+                        </li>
                         <li class="dropdown"><Link to={'/#'}>Services</Link>
                             <ul>
-                                <li><Link to={'/services-1'}>Services One</Link></li>
-                                <li><Link to={'/services-2'}>Services Two</Link></li>
-                                <li><Link to={'/services-details'}>Services Details</Link></li>
+                                <li><Link to={'/services-1'}>Services</Link></li>
+                                <li><Link to={'/services-2'}>Units</Link></li>
+                                {/* <li><Link to={'/services-details'}>Services Details</Link></li> */}
                             </ul>
                         </li>
                         {/* <li class="dropdown"><Link to={'/#'}>Portfolio</Link>
@@ -51,7 +58,7 @@ class Menu extends Component {
                                 <li><Link to={'/blog-details'}>Gallery</Link></li>
                             </ul>
                         </li>
-                        <li class="dropdown"><Link to={'/#'}>Pages</Link>
+                        {/* <li class="dropdown"><Link to={'/#'}>Pages</Link>
                             <ul>
                                 <li><Link to={'/careers'}>Careers</Link></li>
                                 <li><Link to={'/team'}>Team</Link></li>
@@ -68,7 +75,7 @@ class Menu extends Component {
                                 <li><Link to={'/faq'}>Faq's</Link></li>
                                 <li><Link to={'/404'}>404</Link></li>
                             </ul>
-                        </li>
+                        </li> */}
 
                         <li><Link to={'/contact'}>Contact</Link></li>
                     </ul>
