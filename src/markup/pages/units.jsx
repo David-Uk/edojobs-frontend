@@ -153,8 +153,8 @@ const Units = () => {
                                     <div className="col-lg-6">
                                         <div className="content pl-lg-4">
                                             <div className="sec-title">
-                                                <div className="sub-title">Get Rewards</div>
-                                                <h2>Just Proved Our Selves <br />For Great Works.</h2>
+                                                <div className="sub-title">Edo Future 500</div>
+                                                {/* <h2>Just Proved Our Selves <br />For Great Works.</h2> */}
                                             </div>
                                             <div className="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</div>
                                             <div className="link-btn"><Link to={'/#'} className="theme-btn btn-style-one"><span className="btn-title">Learn More</span></Link></div>
@@ -165,13 +165,13 @@ const Units = () => {
                             <Tab.Pane eventKey="third" className=" fadeInUp animated">
                                 <div className="row align-items-center">
                                     <div className="col-lg-6">
-                                        <div className="image"><img src={require('../../assets/images/resource/image-18.jpg')} alt="" /></div>
+                                        <div className="image"><img src={require('../../assets/images/sublets/images/edojobcentre.jpeg')} alt="" /></div>
                                     </div>
                                     <div className="col-lg-6">
                                         <div className="content pl-lg-4">
                                             <div className="sec-title">
-                                                <div className="sub-title">Get Rewards</div>
-                                                <h2>Just Proved Our Selves <br />For Great Works.</h2>
+                                                <div className="sub-title">Edojob Center</div>
+                                                {/* <h2>Just Proved Our Selves <br />For Great Works.</h2> */}
                                             </div>
                                             <div className="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</div>
                                             <div className="link-btn"><Link to={'/#'} className="theme-btn btn-style-one"><span className="btn-title">Learn More</span></Link></div>
@@ -182,13 +182,13 @@ const Units = () => {
                             <Tab.Pane eventKey="fourth" className=" fadeInUp animated">
                                 <div className="row align-items-center">
                                     <div className="col-lg-6">
-                                        <div className="image"><img src={require('../../assets/images/resource/image-18.jpg')} alt="" /></div>
+                                        <div className="image"><img src={require('../../assets/images/sublets/images/edoinnovates.jpg')} alt="" /></div>
                                     </div>
                                     <div className="col-lg-6">
                                         <div className="content pl-lg-4">
                                             <div className="sec-title">
-                                                <div className="sub-title">Get Rewards</div>
-                                                <h2>Just Proved Our Selves <br />For Great Works.</h2>
+                                                <div className="sub-title">Edo Innovates</div>
+                                                {/* <h2>Just Proved Our Selves <br />For Great Works.</h2> */}
                                             </div>
                                             <div className="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</div>
                                             <div className="link-btn"><Link to={'/#'} className="theme-btn btn-style-one"><span className="btn-title">Learn More</span></Link></div>
@@ -199,13 +199,13 @@ const Units = () => {
                             <Tab.Pane eventKey="fifth" className=" fadeInUp animated">
                                 <div className="row align-items-center">
                                     <div className="col-lg-6">
-                                        <div className="image"><img src={require('../../assets/images/resource/image-18.jpg')} alt="" /></div>
+                                        <div className="image"><img src={require('../../assets/images/sublets/images/edofac.jpeg')} alt="" /></div>
                                     </div>
                                     <div className="col-lg-6">
                                         <div className="content pl-lg-4">
                                             <div className="sec-title">
-                                                <div className="sub-title">Get Rewards</div>
-                                                <h2>Just Proved Our Selves <br />For Great Works.</h2>
+                                                <div className="sub-title">Edo FAC</div>
+                                                {/* <h2>Just Proved Our Selves <br />For Great Works.</h2> */}
                                             </div>
                                             <div className="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</div>
                                             <div className="link-btn"><Link to={'/#'} className="theme-btn btn-style-one"><span className="btn-title">Learn More</span></Link></div>
