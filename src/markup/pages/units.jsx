@@ -1,55 +1,39 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Button, Card, Nav, Tab, } from 'react-bootstrap';
+import { Card, Nav, Tab, } from 'react-bootstrap';
 import Header from '../layout/header'
 import Footer from '../layout/footer'
-import Brand1 from '../element/brand1'
-import ServiceFilter1 from '../element/service-filter1'
+import { Button } from 'react-bootstrap';
+
 
 const aboutbg = require('./../../assets/images/background/image-11.jpg');
+const creativeHub = require('./../../assets/images/icons/edo creative hub icon1.png');
+const future500 = require('./../../assets/images/icons/edo future 500 icon1.png');
+const jobCenter = require('./../../assets/images/icons/edo job centre icon1.png');
+const innovates = require('./../../assets/images/icons/edo innovates icon1.png')
+const edofac = require('./../../assets/images/icons/EDOFAC icon1.png')
+const edoepc = require('./../../assets/images/icons/EPC icon1.png')
+
+const victoruwaifohub = require("../../assets/images/sublets/images/creativehub.jpg")
+
 
 const Units = () => {
     return (
         <>
             <Header />
             {/* <!--Search Popup--> */}
-            <div id="search-popup" class="search-popup">
-                <div class="close-search theme-btn"><span class="flaticon-cancel"></span></div>
-                <div class="popup-inner">
-                    <div class="overlay-layer"></div>
-                    <div class="search-form">
-                        <form method="post" action="http://azim.commonsupport.com/Finandox/index.html">
-                            <div class="form-group">
-                                <fieldset>
-                                    <input type="search" class="form-control" name="search-input" value="" placeholder="Search Here" required />
-                                    <input type="submit" value="Search Now!" class="theme-btn" />
-                                </fieldset>
-                            </div>
-                        </form>
-                        <br />
-                        <h3>Recent Search Keywords</h3>
-                        <ul class="recent-searches">
-                            <li><Link to={'/#'}>Finance</Link></li>
-                            <li><Link to={'/#'}>Idea</Link></li>
-                            <li><Link to={'/#'}>Service</Link></li>
-                            <li><Link to={'/#'}>Growth</Link></li>
-                            <li><Link to={'/#'}>Plan</Link></li>
-                        </ul>
-                    </div>
 
-                </div>
-            </div>
 
             {/* <!-- Page Banner Section --> */}
-            <section class="page-banner">
+            <section className="page-banner">
                 <div className="page-banner-bg" style={{ backgroundImage: "url(" + aboutbg + ")" }}></div>
-                <div class="bottom-rotten-curve alternate"></div>
+                <div className="bottom-rotten-curve alternate"></div>
 
-                <div class="auto-container">
+                <div className="auto-container">
                     <h1>Our Units</h1>
-                    <ul class="bread-crumb clearfix">
+                    <ul className="bread-crumb clearfix">
                         <li><Link to={'/#'}>Home</Link></li>
-                        <li class="active">Units</li>
+                        <li className="active">Units</li>
                     </ul>
                 </div>
 
@@ -58,169 +42,190 @@ const Units = () => {
 
 
             {/* <!-- Services Section Five --> */}
-            <section class="services-section-five">
-                <div class="auto-container">
+            <section className="services-section-five">
+                <div className="auto-container">
                     <Tab.Container defaultActiveKey="first">
                         <Nav className="nav-tabs tab-btn-style-one">
                             <Nav.Item>
                                 <Nav.Link eventKey="first">
-                                    <div class="icon-box">
-                                        <div class="icon">
-                                            <img src="./../../assets/images/icons/edo innovates icon1.png" alt="" />
-                                            <h5>Edojob Center</h5>
+                                    <div className="icon-box">
+                                        <div className="icon">
+                                            <img src={creativeHub} height={30} width={50} alt="" />
+
                                         </div>
+                                        <h5>Edo Creative Hub</h5>
                                     </div>
+                                    {/* <div className="m-4">
+                                        <div className="card" style={{ width: "300px" }}>
+                                            <img src={creativeHub} className="card-img-top" alt="creativeHub" />
+                                            <div className="card-body text-center">
+                                                <h5 className="card-title">Alice Liddel</h5>
+                                                <p className="card-text">Alice is a freelance web designer and developer based in London. She is specialized in HTML5, CSS3, JavaScript, Bootstrap, etc.</p>
+                                                <Link to="#" className="btn btn-primary">View Profile</Link>
+                                            </div>
+                                        </div>
+                                    </div> */}
 
                                 </Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
                                 <Nav.Link eventKey="second">
-                                    <div class="icon-box">
-                                        {/* <div class="icon"><span class="flaticon-money"></span></div>
-                                        <h5>TAX Consume</h5> */}
-                                        {/* <ul class="social-links">
-                                            <li><Link to={'/#'}><span class="fab fa-facebook-f"></span></Link></li>
-                                            <li><Link to={'/#'}><span class="fab fa-twitter"></span></Link></li>
-                                            <li><Link to={'/#'}><span class="fab fa-behance"></span></Link></li>
-                                            <li><Link to={'/#'}><span class="fab fa-youtube"></span></Link></li>
-                                        </ul> */}
-                                        <img src="../../assets/images/icons/icon-2.png" alt="" />
+                                    <div className="icon-box">
+                                        <div className="icon">
+                                            <img src={future500} height={30} width={50} alt="" />
 
+                                        </div>
+                                        <h5>Edo Future 500</h5>
                                     </div>
                                 </Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
                                 <Nav.Link eventKey="third">
-                                    <div class="icon-box">
-                                        <div class="icon"><span class="flaticon-assets"></span></div>
-                                        <h5>Finance & Strategy</h5>
+                                    <div className="icon-box">
+                                        <div className="icon">
+                                            <img src={jobCenter} height={30} width={50} alt="" />
+
+                                        </div>
+                                        <h5>Edojob Center</h5>
                                     </div>
                                 </Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
                                 <Nav.Link eventKey="fourth">
-                                    <div class="icon-box">
-                                        <div class="icon"><span class="flaticon-world"></span></div>
-                                        <h5>Best Advice</h5>
+                                    <div className="icon-box">
+                                        <div className="icon">
+                                            <img src={innovates} height={30} width={50} alt="" />
+
+                                        </div>
+                                        <h5>Edo Innovates</h5>
                                     </div>
                                 </Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
                                 <Nav.Link eventKey="fifth">
-                                    <div class="icon-box">
-                                        <div class="icon"><span class="flaticon-money-1"></span></div>
-                                        <h5>Insurance</h5>
+                                    <div className="icon-box">
+                                        <div className="icon">
+                                            <img src={edofac} height={30} width={50} alt="" />
+
+                                        </div>
+                                        <h5>Edo FAC</h5>
                                     </div>
                                 </Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
                                 <Nav.Link eventKey="sixth">
-                                    <div class="icon-box">
-                                        <div class="icon"><span class="flaticon-notebook"></span></div>
-                                        <h5>Criminal Case</h5>
+                                    <div className="icon-box">
+                                        <div className="icon">
+                                            <img src={edoepc} height={30} width={50} alt="" />
+
+                                        </div>
+                                        <h5>Edo EPC</h5>
                                     </div>
                                 </Nav.Link>
                             </Nav.Item>
                         </Nav>
                         <Tab.Content>
-                            <Tab.Pane eventKey="first" className=" fadeInUp animated">
-                                <div class="row align-items-center">
-                                    <div class="col-lg-6">
-                                        <div class="image"><img src={require('../../assets/images/resource/image-18.jpg')} alt="" /></div>
+                            <Tab.Pane eventKey="first"
+                            // className=" fadeInUp animated"
+                            >
+                                <div className="row align-items-center">
+                                    <div className="col-lg-6">
+                                        <div className="image"><img src={victoruwaifohub} alt="" /></div>
                                     </div>
-                                    <div class="col-lg-6">
-                                        <div class="content pl-lg-4">
-                                            <div class="sec-title">
-                                                <div class="sub-title">Get Rewards</div>
-                                                <h2>Just Proved Our Selves <br />For Great Works.</h2>
+                                    <div className="col-lg-6">
+                                        <div className="content pl-lg-4">
+                                            <div className="sec-title">
+                                                <div className="sub-title">Edo Creative Hub</div>
+                                                {/* <h2>Just Proved Our Selves <br />For Great Works.</h2> */}
                                             </div>
-                                            <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</div>
-                                            <div class="link-btn"><Link to={'/#'} class="theme-btn btn-style-one"><span class="btn-title">Learn More</span></Link></div>
+                                            <div className="text">Victor Uwaifo Creative Hub & Sound Stage provides -a state-of-the-art soundstage to develop world-class content.</div>
+                                            <div className="link-btn"><Link to={'/#'} className="theme-btn btn-style-one"><span className="btn-title">Learn More</span></Link></div>
                                         </div>
                                     </div>
                                 </div>
+                                {/* </div> */}
                             </Tab.Pane>
                             <Tab.Pane eventKey="second" className=" fadeInUp animated">
-                                <div class="row align-items-center">
-                                    <div class="col-lg-6">
-                                        <div class="image"><img src={require('../../assets/images/resource/image-18.jpg')} alt="" /></div>
+                                <div className="row align-items-center">
+                                    <div className="col-lg-6">
+                                        <div className="image"><img src={require('../../assets/images/resource/image-18.jpg')} alt="" /></div>
                                     </div>
-                                    <div class="col-lg-6">
-                                        <div class="content pl-lg-4">
-                                            <div class="sec-title">
-                                                <div class="sub-title">Get Rewards</div>
+                                    <div className="col-lg-6">
+                                        <div className="content pl-lg-4">
+                                            <div className="sec-title">
+                                                <div className="sub-title">Get Rewards</div>
                                                 <h2>Just Proved Our Selves <br />For Great Works.</h2>
                                             </div>
-                                            <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</div>
-                                            <div class="link-btn"><Link to={'/#'} class="theme-btn btn-style-one"><span class="btn-title">Learn More</span></Link></div>
+                                            <div className="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</div>
+                                            <div className="link-btn"><Link to={'/#'} className="theme-btn btn-style-one"><span className="btn-title">Learn More</span></Link></div>
                                         </div>
                                     </div>
                                 </div>
                             </Tab.Pane>
                             <Tab.Pane eventKey="third" className=" fadeInUp animated">
-                                <div class="row align-items-center">
-                                    <div class="col-lg-6">
-                                        <div class="image"><img src={require('../../assets/images/resource/image-18.jpg')} alt="" /></div>
+                                <div className="row align-items-center">
+                                    <div className="col-lg-6">
+                                        <div className="image"><img src={require('../../assets/images/resource/image-18.jpg')} alt="" /></div>
                                     </div>
-                                    <div class="col-lg-6">
-                                        <div class="content pl-lg-4">
-                                            <div class="sec-title">
-                                                <div class="sub-title">Get Rewards</div>
+                                    <div className="col-lg-6">
+                                        <div className="content pl-lg-4">
+                                            <div className="sec-title">
+                                                <div className="sub-title">Get Rewards</div>
                                                 <h2>Just Proved Our Selves <br />For Great Works.</h2>
                                             </div>
-                                            <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</div>
-                                            <div class="link-btn"><Link to={'/#'} class="theme-btn btn-style-one"><span class="btn-title">Learn More</span></Link></div>
+                                            <div className="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</div>
+                                            <div className="link-btn"><Link to={'/#'} className="theme-btn btn-style-one"><span className="btn-title">Learn More</span></Link></div>
                                         </div>
                                     </div>
                                 </div>
                             </Tab.Pane>
                             <Tab.Pane eventKey="fourth" className=" fadeInUp animated">
-                                <div class="row align-items-center">
-                                    <div class="col-lg-6">
-                                        <div class="image"><img src={require('../../assets/images/resource/image-18.jpg')} alt="" /></div>
+                                <div className="row align-items-center">
+                                    <div className="col-lg-6">
+                                        <div className="image"><img src={require('../../assets/images/resource/image-18.jpg')} alt="" /></div>
                                     </div>
-                                    <div class="col-lg-6">
-                                        <div class="content pl-lg-4">
-                                            <div class="sec-title">
-                                                <div class="sub-title">Get Rewards</div>
+                                    <div className="col-lg-6">
+                                        <div className="content pl-lg-4">
+                                            <div className="sec-title">
+                                                <div className="sub-title">Get Rewards</div>
                                                 <h2>Just Proved Our Selves <br />For Great Works.</h2>
                                             </div>
-                                            <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</div>
-                                            <div class="link-btn"><Link to={'/#'} class="theme-btn btn-style-one"><span class="btn-title">Learn More</span></Link></div>
+                                            <div className="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</div>
+                                            <div className="link-btn"><Link to={'/#'} className="theme-btn btn-style-one"><span className="btn-title">Learn More</span></Link></div>
                                         </div>
                                     </div>
                                 </div>
                             </Tab.Pane>
                             <Tab.Pane eventKey="fifth" className=" fadeInUp animated">
-                                <div class="row align-items-center">
-                                    <div class="col-lg-6">
-                                        <div class="image"><img src={require('../../assets/images/resource/image-18.jpg')} alt="" /></div>
+                                <div className="row align-items-center">
+                                    <div className="col-lg-6">
+                                        <div className="image"><img src={require('../../assets/images/resource/image-18.jpg')} alt="" /></div>
                                     </div>
-                                    <div class="col-lg-6">
-                                        <div class="content pl-lg-4">
-                                            <div class="sec-title">
-                                                <div class="sub-title">Get Rewards</div>
+                                    <div className="col-lg-6">
+                                        <div className="content pl-lg-4">
+                                            <div className="sec-title">
+                                                <div className="sub-title">Get Rewards</div>
                                                 <h2>Just Proved Our Selves <br />For Great Works.</h2>
                                             </div>
-                                            <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</div>
-                                            <div class="link-btn"><Link to={'/#'} class="theme-btn btn-style-one"><span class="btn-title">Learn More</span></Link></div>
+                                            <div className="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</div>
+                                            <div className="link-btn"><Link to={'/#'} className="theme-btn btn-style-one"><span className="btn-title">Learn More</span></Link></div>
                                         </div>
                                     </div>
                                 </div>
                             </Tab.Pane>
                             <Tab.Pane eventKey="sixth" className=" fadeInUp animated">
-                                <div class="row align-items-center">
-                                    <div class="col-lg-6">
-                                        <div class="image"><img src={require('../../assets/images/resource/image-18.jpg')} alt="" /></div>
+                                <div className="row align-items-center">
+                                    <div className="col-lg-6">
+                                        <div className="image"><img src={require('../../assets/images/resource/image-18.jpg')} alt="" /></div>
                                     </div>
-                                    <div class="col-lg-6">
-                                        <div class="content pl-lg-4">
-                                            <div class="sec-title">
-                                                <div class="sub-title">Get Rewards</div>
+                                    <div className="col-lg-6">
+                                        <div className="content pl-lg-4">
+                                            <div className="sec-title">
+                                                <div className="sub-title">Get Rewards</div>
                                                 <h2>Just Proved Our Selves <br />For Great Works.</h2>
                                             </div>
-                                            <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</div>
-                                            <div class="link-btn"><Link to={'/#'} class="theme-btn btn-style-one"><span class="btn-title">Learn More</span></Link></div>
+                                            <div className="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</div>
+                                            <div className="link-btn"><Link to={'/#'} className="theme-btn btn-style-one"><span className="btn-title">Learn More</span></Link></div>
                                         </div>
                                     </div>
                                 </div>
@@ -231,11 +236,11 @@ const Units = () => {
             </section>
 
             {/* <!-- Gallery Section --> */}
-            <ServiceFilter1 />
+            {/* <ServiceFilter1 /> */}
 
             {/* <!-- Sponsors Section --> */}
 
-            <Brand1 />
+            {/* <Brand1 /> */}
 
             <Footer />
         </>
