@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Nav, Tab, } from 'react-bootstrap';
+import { Button, Card, Nav, Tab, } from 'react-bootstrap';
 import Header from '../layout/header'
 import Footer from '../layout/footer'
 import Brand1 from '../element/brand1'
@@ -65,16 +65,27 @@ const Units = () => {
                             <Nav.Item>
                                 <Nav.Link eventKey="first">
                                     <div class="icon-box">
-                                        <div class="icon"><span class="flaticon-team"></span></div>
-                                        <h5>Management</h5>
+                                        <div class="icon">
+                                            <img src="./../../assets/images/icons/edo innovates icon1.png" alt="" />
+                                            <h5>Edojob Center</h5>
+                                        </div>
                                     </div>
+
                                 </Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
                                 <Nav.Link eventKey="second">
                                     <div class="icon-box">
-                                        <div class="icon"><span class="flaticon-money"></span></div>
-                                        <h5>TAX Consume</h5>
+                                        {/* <div class="icon"><span class="flaticon-money"></span></div>
+                                        <h5>TAX Consume</h5> */}
+                                        {/* <ul class="social-links">
+                                            <li><Link to={'/#'}><span class="fab fa-facebook-f"></span></Link></li>
+                                            <li><Link to={'/#'}><span class="fab fa-twitter"></span></Link></li>
+                                            <li><Link to={'/#'}><span class="fab fa-behance"></span></Link></li>
+                                            <li><Link to={'/#'}><span class="fab fa-youtube"></span></Link></li>
+                                        </ul> */}
+                                        <img src="../../assets/images/icons/icon-2.png" alt="" />
+
                                     </div>
                                 </Nav.Link>
                             </Nav.Item>

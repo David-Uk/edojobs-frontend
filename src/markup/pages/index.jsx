@@ -127,7 +127,7 @@ class Index extends Component {
                             <div class="col-lg-6">
                                 <div class="image-wrapper wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
                                     <div class="image-one">
-                                        <img src={require('../../assets/images/photo/obaseki.png')} style={{ height: '20rem' }} alt="" />
+                                        <img src={require('../../assets/images/photo/obaseki.png')} style={{ height: '30rem' }} alt="" />
                                     </div>
                                 </div>
                             </div>
