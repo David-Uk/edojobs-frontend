@@ -1,12 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Card, Nav, Tab, } from 'react-bootstrap';
+import { Nav, Tab, } from 'react-bootstrap';
 import Header from '../layout/header'
 import Footer from '../layout/footer'
-import { Button } from 'react-bootstrap';
+// import { Button } from 'react-bootstrap';
 
 
-const aboutbg = require('./../../assets/images/background/image-11.jpg');
+const aboutbg = require('./../../assets/images/sublets/images/edoskills.jpeg');
 const creativeHub = require('./../../assets/images/icons/edo creative hub icon1.png');
 const future500 = require('./../../assets/images/icons/edo future 500 icon1.png');
 const jobCenter = require('./../../assets/images/icons/edo job centre icon1.png');
