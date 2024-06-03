@@ -6,28 +6,28 @@ import '../../assets/css/slider.css';
 
 const slides = [
     {
-        title: 'Making Your Business Idea',
+        title: '#Edojobs4Everyone',
         btnLearn: "-- Learn More --",
         finan: "Prosper In This",
         dox: "Volatile Fund",
         btnService: "-- Our Services --",
-        image: require('./../../assets/images/photo/slide1.jpeg'),
+        image: require('./../../assets/images/slides/001.jpg'),
     },
     {
-        title: 'Making Your Business Idea',
+        title: '#Edojobs4Everyone',
         btnLearn: "-- Learn More --",
         finan: "Prosper In This",
         dox: "Volatile Fund",
         btnService: "-- Our Services --",
-        image: require('./../../assets/images/photo/slide2.jpeg'),
+        image: require('./../../assets/images/slides/002.jpg'),
     },
     {
-        title: 'Making Your Business Idea',
+        title: '#Edojobs4Everyone',
         btnLearn: "-- Learn More --",
         finan: "Prosper In This",
         dox: "Volatile Fund",
         btnService: "-- Our Services --",
-        image: require('./../../assets/images/photo/slide3.jpeg'),
+        image: require('./../../assets/images/slides/005.jpg'),
     },
 
 ];

@@ -28,6 +28,7 @@ import TeamDetails from './pages/team-details'
 import Team from './pages/team';
 import Testimonial1 from './element/testimonial1'
 import BackToTop from './layout/backToTop'
+import Reports from './pages/reports';
 
 
 const Router = () => {
@@ -43,7 +44,6 @@ const Router = () => {
                     <Route path='/index-4' component={Index4} />
                     <Route path='/onepage' component={Onepage} />
                     <Route path='/rtl-home' component={RtlHome} />
-                    <Route path='/404' component={Error404} />
                     <Route path='/about' component={About} />
                     <Route path='/blog-details' component={BlogDestails} />
                     <Route path='/blog-grid' component={BlogGrid} />
@@ -56,6 +56,7 @@ const Router = () => {
                     <Route path='/portfolio-2' component={Portfolio2} />
                     <Route path='/portfolio-details' component={PortfolioDetails} />
                     <Route path='/product-details' component={ProductDetails} />
+                    <Route path='/reports' component={Reports} />
                     <Route path='/services' component={Services} />
                     <Route path='/services-details' component={ServicesDetails} />
                     <Route path='/shop' component={Shop} />
@@ -64,6 +65,7 @@ const Router = () => {
                     <Route path='/team' component={Team} />
                     <Route path='/test' component={Testimonial1} />
                     <Route path='/units' component={Units} />
+                    <Route path='/*' component={Error404} />
 
                 </Switch>
 

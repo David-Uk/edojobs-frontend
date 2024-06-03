@@ -13,6 +13,8 @@ import VisibilitySensor from 'react-visibility-sensor';
 import VideoPopup1 from './../element/video-popup1';
 import PortfolioFilter1 from './../element/portfolio-filter1';
 import HomeSlider2 from '../element/home-slider2';
+import Testimonial3 from '../element/testimonial3';
+import Testimonial1 from '../element/testimonial1';
 
 const teambg1 = require('./../../assets/images/background/image-3.jpg');
 const newsbg1 = require('./../../assets/images/background/image-4.jpg');
@@ -197,6 +199,8 @@ class Index extends Component {
                         </section>
                     </div>
                 </section>
+
+                <Testimonial3 />
 
                 <Footer />
             </>

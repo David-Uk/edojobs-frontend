@@ -8,59 +8,29 @@ const bgimg7 = require('./../../assets/images/background/image-7.jpg');
 
 const Testimonial1_content = [
     {
-        thumb: require('./../../assets/images/resource/thumb-1.jpg'),
-        author: 'Alexer Valvin',
-        designation: 'Founder, Coxer IT',
-        title: 'Design Quality',
         description:
-            'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ',
-
+            'Lorem ipsum dolor sit amet',
+        title: 'Small beginnings are still a reality',
+        thumb: require('../../assets/images/testimonial/treasure.png'),
+        author: 'Treasure Oghosa Aghamwenyi',
+        designation: '',
     },
     {
-        thumb: require('./../../assets/images/resource/thumb-2.jpg'),
-        author: 'Alexer Valvin',
-        designation: 'Founder, Coxer IT',
-        title: 'Design Quality',
         description:
-            'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ',
-
+            'Lorem ipsum dolor sit amet',
+        title: 'Its a dream come true for Paul!',
+        thumb: require('../../assets/images/testimonial/paul.png'),
+        author: 'Paul Igbinobaro',
+        designation: '',
     },
     {
-        thumb: require('./../../assets/images/resource/thumb-3.jpg'),
-        author: 'Alexer Valvin',
-        designation: 'Founder, Coxer IT',
-        title: 'Design Quality',
         description:
-            'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ',
-
-    },
-    {
-        thumb: require('./../../assets/images/resource/thumb-4.jpg'),
-        author: 'Alexer Valvin',
-        designation: 'Founder, Coxer IT',
-        title: 'Design Quality',
-        description:
-            'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ',
-
-    },
-    {
-        thumb: require('./../../assets/images/resource/thumb-5.jpg'),
-        author: 'Alexer Valvin',
-        designation: 'Founder, Coxer IT',
-        title: 'Design Quality',
-        description:
-            'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ',
-
-    },
-    {
-        thumb: require('./../../assets/images/resource/thumb-6.jpg'),
-        author: 'Alexer Valvin',
-        designation: 'Founder, Coxer IT',
-        title: 'Design Quality',
-        description:
-            'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ',
-
-    },
+            'Lorem ipsum dolor sit amet',
+        title: 'ASUU strike was a gainful time',
+        thumb: require('../../assets/images/testimonial/precious.png'),
+        author: 'Precious Ojehomon',
+        designation: '',
+    }
 ]
 
 
@@ -73,7 +43,7 @@ class Testimonial1 extends Component {
             dots: false,
             infinite: true,
             speed: 500,
-            slidesToShow: 3,
+            slidesToShow: 1,
             slidesToScroll: 1,
             autoplay: false
         };

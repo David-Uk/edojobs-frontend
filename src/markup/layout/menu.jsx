@@ -53,7 +53,7 @@ class Menu extends Component {
                         </li> */}
                         <li class="dropdown"><Link to={'/#'}>Information</Link>
                             <ul>
-                                <li><Link to={'/blog-grid'}>Report</Link></li>
+                                <li><Link to={'/reports'}>Reports</Link></li>
                                 <li><Link to={'/blog-standard'}>Blog</Link></li>
                                 <li><Link to={'/blog-details'}>Gallery</Link></li>
                             </ul>

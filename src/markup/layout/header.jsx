@@ -63,7 +63,7 @@ class Header extends Component {
 
 
                                     <div class="logo-box">
-                                        <div class="logo"><Link to={'/#'}><img src="/essda.svg" width="50" height="50" style={{ borderRadius: '50%', border: 'none', cursor: 'pointer' }} alt="" /></Link></div>
+                                        <div class="logo"><Link to={'/'}><img src="/essda.svg" width="50" height="50" style={{ borderRadius: '50%', border: 'none', cursor: 'pointer' }} alt="" /></Link></div>
                                     </div>
                                 </div>
 
