@@ -22,10 +22,11 @@ const Footer = () => {
                                         </div>
                                         {/* <div class="text">Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</div> */}
                                         <ul class="social-links clearfix">
-                                            <li><Link to={'/#'}><span class="fab fa-facebook-f"></span></Link></li>
-                                            <li><Link to={'/#'}><span class="fab fa-twitter"></span></Link></li>
-                                            <li><Link to={'/#'}><span class="fab fa-vimeo-v"></span></Link></li>
-                                            <li><Link to={'/#'}><span class="fab fa-instagram"></span></Link></li>
+                                            <li><a href={'https://facebook.com/edojobsinitiative'}><span class="fab fa-facebook-f"></span></a></li>
+                                            <li><a href={'https://x.com/Edojobs'}><span class="fab fa-twitter"></span></a></li>
+                                            {/* <li><a href={'https://instagram.com/edojobs'}><span class="fab fa-instagram"></span></a></li> */}
+                                            <li><a href={'https://linkedin.com/company/edojobs'}><span class="fab fa-linkedin"></span></a></li>
+                                            <li><a href={'https://wa.link/2532tu'}><span class="fab fa-whatsapp"></span></a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -39,20 +40,18 @@ const Footer = () => {
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <ul>
-                                                    <li><Link to={'/#'}>Home</Link></li>
-                                                    <li><Link to={'/#'}>About</Link></li>
-                                                    <li><Link to={'/#'}>Services</Link></li>
-                                                    <li><Link to={'/#'}>Portfolio</Link></li>
-                                                    <li><Link to={'/#'}>Pricing</Link></li>
-                                                    <li><Link to={'/#'}>Contact</Link></li>
+                                                    <li><Link to={'/'}>Home</Link></li>
+                                                    <li><Link to={'/about'}>About</Link></li>
+                                                    <li><Link to={'/services'}>Services</Link></li>
+                                                    <li><Link to={'/contact'}>Contact</Link></li>
                                                 </ul>
                                             </div>
                                             <div class="col-md-6">
                                                 <ul>
-                                                    <li><Link to={'/#'}>News</Link></li>
-                                                    <li><Link to={'/#'}>Press Release</Link></li>
-                                                    <li><Link to={'/#'}>Case Study</Link></li>
-                                                    <li><Link to={'/#'}>Terms</Link></li>
+                                                    <li><Link to={'/reports'}>Reports</Link></li>
+                                                    <li><Link to={'/units'}>Units</Link></li>
+                                                    <li><Link to={'/gallery'}>Gallery</Link></li>
+                                                    <li><Link to={'/faq'}>FAQ</Link></li>
                                                 </ul>
                                             </div>
                                         </div>

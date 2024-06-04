@@ -5,7 +5,7 @@ import Footer from '../layout/footer'
 import ServiceFilter1 from '../element/service-filter1'
 
 
-const aboutbg = require('./../../assets/images/background/image-11.jpg');
+const aboutbg = require('./../../assets/images/photo/slide4.jpeg');
 // const casebg = require('./../../assets/images/background/image-14.jpg');
 
 const Services = () => {
@@ -41,7 +41,7 @@ const Services = () => {
                         <div class="service-block-one col-lg-4">
                             <div class="inner-box">
                                 <div class="icon"><span class="flaticon-team"></span><span class="round-shape"></span></div>
-                                <h3>Business Management</h3>
+                                <h3>Job Matching & Placement</h3>
                                 <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
                             </div>
                         </div>
@@ -49,7 +49,7 @@ const Services = () => {
                         <div class="service-block-one col-lg-4">
                             <div class="inner-box">
                                 <div class="icon"><span class="flaticon-money"></span><span class="round-shape"></span></div>
-                                <h3>Criminal Case</h3>
+                                <h3>Vocational Skills Training</h3>
                                 <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
                             </div>
                         </div>
@@ -57,7 +57,7 @@ const Services = () => {
                         <div class="service-block-one col-lg-4">
                             <div class="inner-box">
                                 <div class="icon"><span class="flaticon-assets"></span><span class="round-shape"></span></div>
-                                <h3>Property Planning</h3>
+                                <h3>Entrepreneurship Development</h3>
                                 <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
                             </div>
                         </div>
@@ -65,7 +65,7 @@ const Services = () => {
                         <div class="service-block-one col-lg-4">
                             <div class="inner-box">
                                 <div class="icon"><span class="flaticon-world"></span><span class="round-shape"></span></div>
-                                <h3>Transport & Export</h3>
+                                <h3>Professional Career Counseling</h3>
                                 <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
                             </div>
                         </div>
@@ -73,7 +73,7 @@ const Services = () => {
                         <div class="service-block-one col-lg-4">
                             <div class="inner-box">
                                 <div class="icon"><span class="flaticon-money-1"></span><span class="round-shape"></span></div>
-                                <h3>Saving Tax</h3>
+                                <h3>Internship & Apprenticeship</h3>
                                 <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
                             </div>
                         </div>
@@ -81,7 +81,35 @@ const Services = () => {
                         <div class="service-block-one col-lg-4">
                             <div class="inner-box">
                                 <div class="icon"><span class="flaticon-notebook"></span><span class="round-shape"></span></div>
-                                <h3>Growth Business</h3>
+                                <h3>Computer | Digital Skills</h3>
+                                <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
+                            </div>
+                        </div>
+                        <div class="service-block-one col-lg-4">
+                            <div class="inner-box">
+                                <div class="icon"><span class="flaticon-notebook"></span><span class="round-shape"></span></div>
+                                <h3>Business Advisory Support</h3>
+                                <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
+                            </div>
+                        </div>
+                        <div class="service-block-one col-lg-4">
+                            <div class="inner-box">
+                                <div class="icon"><span class="flaticon-notebook"></span><span class="round-shape"></span></div>
+                                <h3>Employer Engagement & Advisory</h3>
+                                <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
+                            </div>
+                        </div>
+                        <div class="service-block-one col-lg-4">
+                            <div class="inner-box">
+                                <div class="icon"><span class="flaticon-notebook"></span><span class="round-shape"></span></div>
+                                <h3>Access to Grant & Loan</h3>
+                                <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
+                            </div>
+                        </div>
+                        <div class="service-block-one col-lg-4">
+                            <div class="inner-box">
+                                <div class="icon"><span class="flaticon-notebook"></span><span class="round-shape"></span></div>
+                                <h3>Best Agricultural Practices</h3>
                                 <div class="text">Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
                             </div>
                         </div>
@@ -90,7 +118,7 @@ const Services = () => {
             </section>
 
             {/* <!-- Case Studies --> */}
-            <ServiceFilter1 />
+            {/* <ServiceFilter1 /> */}
 
 
             <Footer />
