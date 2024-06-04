@@ -11,7 +11,7 @@ const slides = [
         finan: "Prosper In This",
         dox: "Volatile Fund",
         btnService: "-- Our Services --",
-        image: require('./../../assets/images/slides/001.jpg'),
+        image: require('./../../assets/images/homeslide/001.jpg'),
     },
     {
         title: '#Edojobs4Everyone',
@@ -19,7 +19,7 @@ const slides = [
         finan: "Prosper In This",
         dox: "Volatile Fund",
         btnService: "-- Our Services --",
-        image: require('./../../assets/images/slides/002.jpg'),
+        image: require('./../../assets/images/homeslide/002.jpg'),
     },
     {
         title: '#Edojobs4Everyone',
@@ -27,7 +27,7 @@ const slides = [
         finan: "Prosper In This",
         dox: "Volatile Fund",
         btnService: "-- Our Services --",
-        image: require('./../../assets/images/slides/005.jpg'),
+        image: require('./../../assets/images/homeslide/003.jpg'),
     },
 
 ];
@@ -39,7 +39,7 @@ class HomeSlider2 extends Component {
     render() {
         return (
             <>
-                <Slider className="slider-wrapper" autoplay>
+                <Slider className="slider-wrapper" autoplay duration={5000}>
                     {slides.map((slide, index) =>
                         <div key={index} className="slider-content" style={{ background: `url('${slide.image}') no-repeat center center` }}>
                             <div className="inner text-center inner-2">

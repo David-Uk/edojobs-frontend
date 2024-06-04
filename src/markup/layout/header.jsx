@@ -115,10 +115,10 @@ class Header extends Component {
 
 
                                     <ul class="social-links clearfix">
-                                        <li><Link to={'/#'}><span class="fab fa-facebook-f"></span></Link></li>
-                                        <li><Link to={'/#'}><span class="fab fa-twitter"></span></Link></li>
-                                        <li><Link to={'/#'}><span class="fab fa-linkedin-in"></span></Link></li>
-                                        <li><Link to={'/#'}><span class="fab fa-pinterest-p"></span></Link></li>
+                                        <li><a href={'https://facebook.com/edojobsinitiative'}><span class="fab fa-facebook-f"></span></a></li>
+                                        <li><a href={'https://x.com/Edojobs'}><span class="fab fa-twitter"></span></a></li>
+                                        <li><a href={'https://instagram.com/edojobs'}><span class="fab fa-instagram"></span></a></li>
+                                        <li><a href={'https://linkedin.com/company/edojobs'}><span class="fab fa-linkedin"></span></a></li>
                                     </ul>
                                 </div>
                             </div>

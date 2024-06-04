@@ -4,7 +4,7 @@ import Header from '../layout/header'
 import Footer from '../layout/footer'
 import GoogleMaps from "simple-react-google-maps";
 
-const aboutbg = require('./../../assets/images/background/image-11.jpg');
+const aboutbg = require('./../../assets/images/photo/slide8.jpeg');
 
 
 
@@ -16,36 +16,11 @@ class Contact extends Component {
         return (
             <>
                 <Header />
-                
+
 
                 {/* <!--Search Popup--> */}
-                <div id="search-popup" class="search-popup">
-                    <div class="close-search theme-btn"><span class="flaticon-cancel"></span></div>
-                    <div class="popup-inner">
-                        <div class="overlay-layer"></div>
-                        <div class="search-form">
-                            <form method="post" action="http://azim.commonsupport.com/Finandox/index.html">
-                                <div class="form-group">
-                                    <fieldset>
-                                        <input type="search" class="form-control" name="search-input" value="" placeholder="Search Here" required />
-                                        <input type="submit" value="Search Now!" class="theme-btn"/>
-                                    </fieldset>
-                                </div>
-                            </form>
-                            <br/>
-                            <h3>Recent Search Keywords</h3>
-                            <ul class="recent-searches">
-                                <li><Link to={'/#'}>Finance</Link></li>
-                                <li><Link to={'/#'}>Idea</Link></li>
-                                <li><Link to={'/#'}>Service</Link></li>
-                                <li><Link to={'/#'}>Growth</Link></li>
-                                <li><Link to={'/#'}>Plan</Link></li>
-                            </ul>
-                        </div>
-                        
-                    </div>
-                </div>
-                
+
+
                 {/* <!-- Page Banner Section --> */}
                 <section class="page-banner">
                     <div className="page-banner-bg" style={{ backgroundImage: "url(" + aboutbg + ")" }}></div>
@@ -65,13 +40,13 @@ class Contact extends Component {
                 {/* <!-- Map Section --> */}
                 <section class="map-section">
                     <div class="map-column">
-                        <GoogleMaps
-                            apiKey={"AIzaSyBQ5y0EF8dE6qwc03FcbXHJfXr4vEa7z54"}
-                            style={{ height: "800px", width: "100%" }}
-                            zoom={12}
-                            center={{ lat: 37.4224764, lng: -122.0842499 }}
-                            markers={{ lat: 37.4224764, lng: -122.0842499 }} //optional
-                        />
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15862.248533784941!2d5.6022972389099674!3d6.32109920265195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1040d3bc677503a3%3A0xecd860a19946b152!2sEdo%20State%20Government%20House!5e0!3m2!1sen!2sng!4v1713250764809!5m2!1sen!2sng"
+                            width="100%"
+                            height="450" style={{ border: 0 }}
+                            // allowFullscreen=""
+                            loading="lazy"
+                            referrerPolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </section>
 
@@ -86,8 +61,8 @@ class Contact extends Component {
                                             <div class="icon"><span class="flaticon-email-6"></span></div>
                                             <h3>Email Address</h3>
                                             <ul>
-                                                <li><Link to={'/mailto:info@webmail.com'}>info@webmail.com</Link></li>
-                                                <li><Link to={'/mailto:info@webmail.com'}>jobs@exampleco.com</Link></li>
+                                                <li><Link to={'/mailto:edojobs@edostate.gov.ng'}>edojobs@edostate.gov.ng</Link></li>
+                                                {/* <li><Link to={'/mailto:info@webmail.com'}>jobs@exampleco.com</Link></li> */}
                                             </ul>
                                         </div>
                                     </div>
@@ -96,8 +71,8 @@ class Contact extends Component {
                                             <div class="icon"><span class="flaticon-call-1"></span></div>
                                             <h3>Phone Number</h3>
                                             <ul>
-                                                <li><Link to={'/tel:+8976765654654'}>+897 676 5654 654</Link></li>
-                                                <li><Link to={'/tel:+908(097)56476576'}>+908(097) 564 765 76</Link></li>
+                                                <li><Link to={'/tel:+2349013722775'}>+2349013722775</Link></li>
+                                                {/* <li><Link to={'/tel:+908(097)56476576'}>+908(097) 564 765 76</Link></li> */}
                                             </ul>
                                         </div>
                                     </div>
@@ -106,47 +81,14 @@ class Contact extends Component {
                                             <div class="icon"><span class="flaticon-location"></span></div>
                                             <h3>Office Address</h3>
                                             <ul>
-                                                <li>12/A, Romania City Town Hall <br/>New Joursey, UK</li>
+                                                <li>Edojobs Office<br />Edo State Government House </li>
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="contact-form-area">
-                            <div class="sec-title text-center">
-                                <div class="sub-title">Write Here</div>
-                                <h2>Get In Touch</h2>
-                            </div>
-                            {/* <!-- Contact Form--> */}
-                            <div class="contact-form">
-                                <form method="post" action="http://azim.commonsupport.com/Finandox/sendemail.php" id="contact-form">
-                                    <div class="row clearfix">                                    
-                                        <div class="col-md-6 form-group">
-                                            <label for="name">Enter your name</label>
-                                            <input type="text" name="username" id="name" placeholder="Enter name here......" required=""/>
-                                            <i class="fas fa-user"></i>
-                                        </div>
-                                        
-                                        <div class="col-md-6 form-group">
-                                            <label for="email">Enter your email</label>
-                                            <input type="email" name="email" id="email" placeholder="Enter email here......" required=""/>
-                                            <i class="fas fa-envelope"></i>
-                                        </div>
-                
-                                        <div class="col-md-12 form-group">
-                                            <label for="message">Enter your message</label>
-                                            <textarea name="message" id="message" placeholder="Enter message here......"></textarea>
-                                            <i class="fas fa-edit"></i>
-                                        </div>
-                
-                                        <div class="col-md-12 form-group">
-                                            <button class="theme-btn btn-style-one" type="submit" name="submit-form"><span class="btn-title">Get In Touch</span></button>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
+
                     </div>
                 </section>
 
