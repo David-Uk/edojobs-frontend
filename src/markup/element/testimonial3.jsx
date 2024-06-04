@@ -59,7 +59,7 @@ class Testimonial3 extends Component {
                     <div class="auto-container">
                         <div class="sec-title text-center">
                             <div class="sub-title">Testimonials</div>
-                            <h2>Clients Feedback</h2>
+                            <h2>What Beneficiaries Say</h2>
                         </div>
                         <div class="row justify-content-center">
                             <div className="col-lg-10">
