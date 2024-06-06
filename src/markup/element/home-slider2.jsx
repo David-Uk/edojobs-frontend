@@ -10,7 +10,7 @@ const slides = [
         btnLearn: "-- Learn More --",
         finan: "Prosper In This",
         dox: "Volatile Fund",
-        btnService: "-- Our Services --",
+        btnService: "-- Register Now --",
         image: require('./../../assets/images/homeslide/001.jpg'),
     },
     {
@@ -18,7 +18,7 @@ const slides = [
         btnLearn: "-- Learn More --",
         finan: "Prosper In This",
         dox: "Volatile Fund",
-        btnService: "-- Our Services --",
+        btnService: "-- Register Now --",
         image: require('./../../assets/images/homeslide/002.jpg'),
     },
     {
@@ -26,7 +26,7 @@ const slides = [
         btnLearn: "-- Learn More --",
         finan: "Prosper In This",
         dox: "Volatile Fund",
-        btnService: "-- Our Services --",
+        btnService: "-- Register Now --",
         image: require('./../../assets/images/homeslide/003.jpg'),
     },
 
@@ -63,7 +63,7 @@ class HomeSlider2 extends Component {
                                 <div class="content-box">
                                     <h3>Making Your Business Idea</h3>
                                     <h2>Prosper In This <br />Volatile Fund</h2>
-                                    <div class="btn-box"><Link to={'/#'} class="theme-btn btn-style-one"><span class="btn-title">-- Our Services --</span></Link><Link to={'/#'} class="theme-btn btn-style-two"><span class="btn-title">-- Learn More --</span></Link></div>
+                                    <div class="btn-box"><Link to={'/#'} class="theme-btn btn-style-one"><span class="btn-title">-- Register Now --</span></Link><Link to={'/#'} class="theme-btn btn-style-two"><span class="btn-title">-- Learn More --</span></Link></div>
                                 </div>
                             </div>
                         </div>
@@ -75,7 +75,7 @@ class HomeSlider2 extends Component {
                                 <div class="content-box">
                                     <h3>Making Your Business Idea</h3>
                                     <h2>Prosper In This <br />Volatile Fund</h2>
-                                    <div class="btn-box"><Link to={'/#'} class="theme-btn btn-style-one"><span class="btn-title">-- Our Services --</span></Link><Link to={'/#'} class="theme-btn btn-style-two"><span class="btn-title">-- Learn More --</span></Link></div>
+                                    <div class="btn-box"><Link to={'/#'} class="theme-btn btn-style-one"><span class="btn-title">-- Register Now --</span></Link><Link to={'/#'} class="theme-btn btn-style-two"><span class="btn-title">-- Learn More --</span></Link></div>
                                 </div>
                             </div>
                         </div>

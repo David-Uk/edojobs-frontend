@@ -26,7 +26,7 @@ const Footer = () => {
                                             <li><a href={'https://x.com/Edojobs'}><span class="fab fa-twitter"></span></a></li>
                                             {/* <li><a href={'https://instagram.com/edojobs'}><span class="fab fa-instagram"></span></a></li> */}
                                             <li><a href={'https://linkedin.com/company/edojobs'}><span class="fab fa-linkedin"></span></a></li>
-                                            <li><a href={'https://wa.link/2532tu'}><span class="fab fa-whatsapp"></span></a></li>
+                                            <li><a href={'https://wa.link/3qdacu'}><span class="fab fa-whatsapp"></span></a></li>
                                         </ul>
                                     </div>
                                 </div>
