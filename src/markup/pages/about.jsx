@@ -6,7 +6,7 @@ import Footer from '../layout/footer';
 import Brand1 from '../element/brand1';
 
 
-const aboutbg = require('./../../assets/images/photo/aboutedojobs.jpeg');
+const aboutbg = require('./../../assets/images/photo/hairmaking.jpg');
 
 
 

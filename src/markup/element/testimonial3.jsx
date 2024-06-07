@@ -4,12 +4,10 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-
-
 const Testimonial3_content = [
     {
         description:
-            'Lorem ipsum dolor sit amet',
+            "Treasure's idle and jobless days got over with a swift transformation.She is now an entrepreneur, employer of labour, and manpower developer who trains other youth amassing good fortune for her enterprise.",
         title: 'Small beginnings are still a reality',
         thumb: require('../../assets/images/testimonial/treasure.png'),
         author: 'Treasure Oghosa Aghamwenyi',
@@ -17,7 +15,7 @@ const Testimonial3_content = [
     },
     {
         description:
-            'Lorem ipsum dolor sit amet',
+            'He recounts that his first three interviews were not successful and he was almost at the brink of giving up. He could scarcely believe it when he received a phone call for a job interview. Paul went for the interview and behold, he immediately got the job!...the kind of job he has been dreaming of!',
         title: 'Its a dream come true for Paul!',
         thumb: require('../../assets/images/testimonial/paul.png'),
         author: 'Paul Igbinobaro',
@@ -25,14 +23,11 @@ const Testimonial3_content = [
     },
     {
         description:
-            'Lorem ipsum dolor sit amet',
+            'Precious Ojehomon came in contact with Edojobs in 2019 through her mother who is also a beneficiary of a previous programme (Cosmetology Training) organised by Edojobs. She continued with the practice of her skill, and perfected the art of painting and paint production, and she can boast of having a long list of clientele and a mouthwatering patronage.',
         title: 'ASUU strike was a gainful time',
         thumb: require('../../assets/images/testimonial/precious.png'),
         author: 'Precious Ojehomon',
         designation: '',
-
-
-
     },
 ]
 
@@ -45,15 +40,13 @@ class Testimonial3 extends Component {
         const settings = {
             dots: false,
             infinite: true,
-            speed: 500,
+            speed: 2000,
             slidesToShow: 1,
             slidesToScroll: 1,
-            autoplay: false
+            autoplay: true
         };
         return (
             <>
-
-
                 {/* <!-- Testimonial Section Two --> */}
                 <section class="testimonial-section-two">
                     <div class="auto-container">

@@ -18,13 +18,13 @@ const Footer = () => {
                                 <div class="footer-widget logo-widget">
                                     <div class="widget-content">
                                         <div class="footer-logo">
-                                            <Link to="index.html"><img class="" src={require('../../assets/images/essda.svg')} height={150} width={150} alt="" /></Link>
+                                            <Link to="/"><img class="" src={require('../../assets/images/essda.svg')} height={150} width={150} alt="" /></Link>
                                         </div>
                                         {/* <div class="text">Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</div> */}
                                         <ul class="social-links clearfix">
                                             <li><a href={'https://facebook.com/edojobsinitiative'}><span class="fab fa-facebook-f"></span></a></li>
                                             <li><a href={'https://x.com/Edojobs'}><span class="fab fa-twitter"></span></a></li>
-                                            {/* <li><a href={'https://instagram.com/edojobs'}><span class="fab fa-instagram"></span></a></li> */}
+                                            <li><a href={'https://instagram.com/edojobs'}><span class="fab fa-instagram"></span></a></li>
                                             <li><a href={'https://linkedin.com/company/edojobs'}><span class="fab fa-linkedin"></span></a></li>
                                             <li><a href={'https://wa.link/3qdacu'}><span class="fab fa-whatsapp"></span></a></li>
                                         </ul>

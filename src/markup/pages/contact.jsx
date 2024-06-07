@@ -61,7 +61,7 @@ class Contact extends Component {
                                             <div class="icon"><span class="flaticon-email-6"></span></div>
                                             <h3>Email Address</h3>
                                             <ul>
-                                                <li><Link to={'/mailto:edojobs@edostate.gov.ng'}>edojobs@edostate.gov.ng</Link></li>
+                                                <li><a href='mailto:edojobs@edostate.gov.ng'>edojobs@edostate.gov.ng</a></li>
                                                 {/* <li><Link to={'/mailto:info@webmail.com'}>jobs@exampleco.com</Link></li> */}
                                             </ul>
                                         </div>
@@ -71,7 +71,7 @@ class Contact extends Component {
                                             <div class="icon"><span class="flaticon-call-1"></span></div>
                                             <h3>Phone Number</h3>
                                             <ul>
-                                                <li><Link to={'/tel:+2349013722775'}>+2349013722775</Link></li>
+                                                <li><a href='tel:+2349013722775'>+2349013722775</a></li>
                                                 {/* <li><Link to={'/tel:+908(097)56476576'}>+908(097) 564 765 76</Link></li> */}
                                             </ul>
                                         </div>
@@ -81,7 +81,7 @@ class Contact extends Component {
                                             <div class="icon"><span class="flaticon-location"></span></div>
                                             <h3>Office Address</h3>
                                             <ul>
-                                                <li>Edojobs Office<br />Edo State Government House </li>
+                                                <li>Edojobs Office<br />Edo State Government House <br />GRA, Benin City </li>
                                             </ul>
                                         </div>
                                     </div>
