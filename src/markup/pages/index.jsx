@@ -182,11 +182,24 @@ class Index extends Component {
                                                 </div>
                                             </div>
                                         </div>
+                                        <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 col-6">
+                                            <div class="feature-block-one">
+                                                <div class="inner-box">
+                                                    <div class="icon"><span class="flaticon-money-1"></span></div>
+                                                    <h5>Business Advisory Support</h5>
+                                                </div>
+                                            </div>
+                                        </div>
 
                                     </div>
                                 </div>
                             </div>
                         </section>
+                        <div class="sec-title text-center">
+                            <Link to='/services' style={{ margin: '3em 0', borderRadius: '20px !important', cursor: 'pointer', backgroundColor: '#64a547', padding: '1em' }} class="theme-btn btn-style-two">Learn More</Link>
+                            {/* <h3>Services</h3> */}
+                        </div>
+
                     </div>
                 </section>
 

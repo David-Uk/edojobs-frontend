@@ -6,13 +6,14 @@ import Footer from '../layout/footer'
 // import { Button } from 'react-bootstrap';
 
 
-const aboutbg = require('./../../assets/images/sublets/images/edoskills.jpeg');
-const creativeHub = require('./../../assets/images/icons/edo creative hub icon1.png');
-const future500 = require('./../../assets/images/icons/edo future 500 icon1.png');
-const jobCenter = require('./../../assets/images/icons/edo job centre icon1.png');
-const innovates = require('./../../assets/images/icons/edo innovates icon1.png')
-const edofac = require('./../../assets/images/icons/EDOFAC icon1.png')
+const aboutbg = require('./../../assets/images/photo/slide15.jpeg');
+const creativeHub = require('./../../assets/images/sublets/victoruwaifohub.png');
+const future500 = require('./../../assets/images/sublets/future500.png');
+const jobCenter = require('./../../assets/images/sublets/jobcentre.png');
+const innovates = require('./../../assets/images/sublets/innovates.png')
+const edofac = require('./../../assets/images/sublets/fac.png')
 const edoepc = require('./../../assets/images/icons/EPC icon1.png')
+const skills = require('./../../assets/images/sublets/future500.png');
 
 const victoruwaifohub = require("../../assets/images/sublets/images/creativehub.jpg")
 
@@ -123,6 +124,17 @@ const Units = () => {
                                     </div>
                                 </Nav.Link>
                             </Nav.Item>
+                            <Nav.Item>
+                                <Nav.Link eventKey="seventh">
+                                    <div className="icon-box">
+                                        <div className="icon">
+                                            <img src={skills} height={30} width={50} alt="" />
+
+                                        </div>
+                                        <h5>Edo Skills</h5>
+                                    </div>
+                                </Nav.Link>
+                            </Nav.Item>
                         </Nav>
                         <Tab.Content>
                             <Tab.Pane eventKey="first"
@@ -217,6 +229,23 @@ const Units = () => {
                                 <div className="row align-items-center">
                                     <div className="col-lg-6">
                                         <div className="image"><img src={require('../../assets/images/resource/image-18.jpg')} alt="" /></div>
+                                    </div>
+                                    <div className="col-lg-6">
+                                        <div className="content pl-lg-4">
+                                            <div className="sec-title">
+                                                <div className="sub-title">Get Rewards</div>
+                                                <h2>Just Proved Our Selves <br />For Great Works.</h2>
+                                            </div>
+                                            <div className="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</div>
+                                            <div className="link-btn"><Link to={'/#'} className="theme-btn btn-style-one"><span className="btn-title">Learn More</span></Link></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </Tab.Pane>
+                            <Tab.Pane eventKey="seventh" className=" fadeInUp animated">
+                                <div className="row align-items-center">
+                                    <div className="col-lg-6">
+                                        <div className="image"><img src={require('../../assets/images/sublets/images/edoskills.jpg')} alt="" /></div>
                                     </div>
                                     <div className="col-lg-6">
                                         <div className="content pl-lg-4">
