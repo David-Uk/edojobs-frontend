@@ -30,29 +30,22 @@ class Menu extends Component {
                             </ul> */}
                         </li>
                         {/* <li><Link to={'/about'}>About Us</Link></li> */}
-                        <li><Link to={'/about'}>About</Link>
-                            {/* <ul>
-                                <li><Link to={'/about'}>About Us</Link></li>
-                                <li><Link to={'/faq'}>FAQ</Link></li>
-                            </ul> */}
-                        </li>
-                        <li class="dropdown"><Link to={'/#'}>Departments</Link>
+                        <li className='dropdown'><Link to={'/about'}>About</Link>
                             <ul>
-                                <li><Link to={'/services'}>Services</Link>
+                                <li><Link to={'/about'}>About Us</Link></li>
+                                <li><Link to={'/services'}>Services</Link></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><Link to='/units'>Departments</Link>
+                            <ul>
 
-                                </li>
-                                <li className='dropdown'><Link to={'/units'}>Units</Link>
-                                    <ul>
-                                        <li><Link to='#'>Edo Creative Hub</Link></li>
-                                        <li><Link to='#'>Edo Future 500</Link></li>
-                                        <li><Link to='#'>Edojob Center</Link> </li>
-                                        <li><Link to='#'>Edo Innovates</Link></li>
-                                        <li><Link to='#'>Edo FAC</Link></li>
-                                        <li><Link to='#'>Edo MSME</Link></li>
-                                        <li><Link to='#'>Edo Skills</Link></li>
-                                    </ul>
-                                </li>
-                                {/* <li><Link to={'/services-details'}>Services Details</Link></li> */}
+                                <li><Link to='#'>Vocational SKills</Link></li>
+                                <li><Link to='#'>Job Matching</Link></li>
+                                <li><Link to='#'>Entrepreneurship</Link> </li>
+                                <li><Link to='#'>Edofac</Link></li>
+                                <li><Link to='#'>Edo MSME</Link></li>
+                                <li><Link to='#'>Edo Creative Hub</Link></li>
+                                <li><Link to='#'>Edo Innovates</Link></li>
                             </ul>
                         </li>
                         {/* <li class="dropdown"><Link to={'/#'}>Portfolio</Link>

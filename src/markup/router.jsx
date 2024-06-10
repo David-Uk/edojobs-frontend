@@ -29,6 +29,9 @@ import Team from './pages/team';
 import Testimonial1 from './element/testimonial1'
 import BackToTop from './layout/backToTop'
 import Reports from './pages/reports';
+import EdoInnovates from './pages/sublets/innovates';
+import EdoJobcenter from './pages/sublets/jobcenter';
+import VictorUwaifoHub from './pages/sublets/victoruwaifohub';
 
 
 const Router = () => {
@@ -64,7 +67,8 @@ const Router = () => {
                     <Route path='/team-details' component={TeamDetails} />
                     <Route path='/team' component={Team} />
                     <Route path='/test' component={Testimonial1} />
-                    <Route path='/units' component={Units} />
+                    <Route exact path='/units' component={Units} />
+
                     <Route path='/*' component={Error404} />
 
                 </Switch>
