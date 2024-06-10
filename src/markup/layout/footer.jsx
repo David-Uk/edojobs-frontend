@@ -66,31 +66,31 @@ const Footer = () => {
                                     <div class="inner-box">
                                         <div class="wrapper-box">
                                             <div class="image">
-                                                <img class="lazy-image owl-lazy" src={require('../../assets/images/gallery/gallery-1.jpg')} alt="" />
+                                                <img class="lazy-image owl-lazy" src={require('../../assets/images/gallery/thumbnails/slide1.png')} alt="" />
 
-                                                <div class="overlay-link"><Link to={'/assets/images/gallery/gallery-1.jpg'} class="lightbox-image" data-fancybox="gallery"><span class="fa fa-plus"></span></Link></div>
+                                                <div class="overlay-link"><Link to={'/assets/images/gallery/thumbnails/slide1.png'} class="lightbox-image" data-fancybox="gallery"><span class="fa fa-plus"></span></Link></div>
                                             </div>
                                             <div class="image">
-                                                <img class="lazy-image owl-lazy" src={require('../../assets/images/gallery/gallery-2.jpg')} alt="" />
-                                                <div class="overlay-link"><Link to={'/assets/images/gallery/gallery-2.jpg'} class="lightbox-image" data-fancybox="gallery"><span class="fa fa-plus"></span></Link></div>
+                                                <img class="lazy-image owl-lazy" src={require('../../assets/images/gallery/thumbnails/slide2.png')} alt="" />
+                                                <div class="overlay-link"><Link to={'/assets/images/gallery/thumbnails/slide2.png'} class="lightbox-image" data-fancybox="gallery"><span class="fa fa-plus"></span></Link></div>
                                             </div>
                                             <div class="image">
-                                                <img class="lazy-image owl-lazy" src={require('../../assets/images/gallery/gallery-3.jpg')} alt="" />
-                                                <div class="overlay-link"><Link to={'/assets/images/gallery/gallery-3.jpg'} class="lightbox-image" data-fancybox="gallery"><span class="fa fa-plus"></span></Link></div>
+                                                <img class="lazy-image owl-lazy" src={require('../../assets/images/gallery/thumbnails/slide3.png')} alt="" />
+                                                <div class="overlay-link"><Link to={'/assets/images/gallery/thumbnails/slide3.png'} class="lightbox-image" data-fancybox="gallery"><span class="fa fa-plus"></span></Link></div>
                                             </div>
                                             <div class="image">
-                                                <img class="lazy-image owl-lazy" src={require('../../assets/images/gallery/gallery-4.jpg')} alt="" />
-                                                <div class="overlay-link"><Link to={'/assets/images/gallery/gallery-4.jpg'} class="lightbox-image" data-fancybox="gallery"><span class="fa fa-plus"></span></Link></div>
+                                                <img class="lazy-image owl-lazy" src={require('../../assets/images/gallery/thumbnails/slide4.png')} alt="" />
+                                                <div class="overlay-link"><Link to={'/assets/images/gallery/thumbnails/slide4.png'} class="lightbox-image" data-fancybox="gallery"><span class="fa fa-plus"></span></Link></div>
                                             </div>
                                             <div class="image">
-                                                <img class="lazy-image owl-lazy" src={require('../../assets/images/gallery/gallery-5.jpg')} alt="" />
-                                                <div class="overlay-link"><Link to={'/assets/images/gallery/gallery-5.jpg'} class="lightbox-image" data-fancybox="gallery"><span class="fa fa-plus"></span></Link></div>
+                                                <img class="lazy-image owl-lazy" src={require('../../assets/images/gallery/thumbnails/slide5.png')} alt="" />
+                                                <div class="overlay-link"><Link to={'/assets/images/gallery/thumbnails/slide5.png'} class="lightbox-image" data-fancybox="gallery"><span class="fa fa-plus"></span></Link></div>
                                             </div>
                                             <div class="image">
-                                                <img class="lazy-image owl-lazy" src={require('../../assets/images/gallery/gallery-6.jpg')} alt="" />
-                                                <div class="overlay-link"><Link to={'/assets/images/gallery/gallery-6.jpg'} class="lightbox-image" data-fancybox="gallery"><span class="fa fa-plus"></span></Link></div>
+                                                <img class="lazy-image owl-lazy" src={require('../../assets/images/gallery/thumbnails/slide6.png')} alt="" />
+                                                <div class="overlay-link"><Link to={'/assets/images/gallery/thumbnails/slide6.png'} class="lightbox-image" data-fancybox="gallery"><span class="fa fa-plus"></span></Link></div>
                                             </div>
-                                            <div class="image">
+                                            {/* <div class="image">
                                                 <img class="lazy-image owl-lazy" src={require('../../assets/images/gallery/gallery-7.jpg')} alt="" />
                                                 <div class="overlay-link"><Link to={'/assets/images/gallery/gallery-7.jpg'} class="lightbox-image" data-fancybox="gallery"><span class="fa fa-plus"></span></Link></div>
                                             </div>
@@ -101,7 +101,7 @@ const Footer = () => {
                                             <div class="image">
                                                 <img class="lazy-image owl-lazy" src={require('../../assets/images/gallery/gallery-9.jpg')} alt="" />
                                                 <div class="overlay-link"><Link to={'/assets/images/gallery/gallery-9.jpg'} class="lightbox-image" data-fancybox="gallery"><span class="fa fa-plus"></span></Link></div>
-                                            </div>
+                                            </div> */}
                                         </div>
                                     </div>
                                 </div>
