@@ -39,13 +39,13 @@ class Menu extends Component {
                         <li class="dropdown"><Link to='/units'>Departments</Link>
                             <ul>
 
-                                <li><Link to='#'>Vocational SKills</Link></li>
-                                <li><Link to='#'>Job Matching</Link></li>
-                                <li><Link to='#'>Entrepreneurship</Link> </li>
-                                <li><Link to='#'>Edofac</Link></li>
-                                <li><Link to='#'>Edo MSME</Link></li>
-                                <li><Link to='#'>Edo Creative Hub</Link></li>
-                                <li><Link to='#'>Edo Innovates</Link></li>
+                                <li><Link to='/units/vocationalskills'>Vocational Skills</Link></li>
+                                <li><Link to='/units/edojobcenter'>Job Matching</Link></li>
+                                <li><Link to='/units/entrepreneurship'>Entrepreneurship</Link> </li>
+                                <li><Link to='/units/edofac'>Edofac</Link></li>
+                                <li><Link to='/units/msme'>Edo MSME</Link></li>
+                                <li><Link to='/units/edocreativehub'>Edo Creative Hub</Link></li>
+                                <li><Link to='/units/edoinnovates'>Edo Innovates</Link></li>
                             </ul>
                         </li>
                         {/* <li class="dropdown"><Link to={'/#'}>Portfolio</Link>

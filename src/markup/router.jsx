@@ -32,6 +32,11 @@ import Reports from './pages/reports';
 import EdoInnovates from './pages/sublets/innovates';
 import EdoJobcenter from './pages/sublets/jobcenter';
 import VictorUwaifoHub from './pages/sublets/victoruwaifohub';
+import VocationalSkills from './pages/sublets/vocationalskills';
+import CreativeHub from './pages/sublets/victoruwaifohub';
+import EdoFAC from './pages/sublets/fac';
+import Entrepreneurship from './pages/sublets/entrepreneurship';
+import MSME from './pages/sublets/msme';
 
 
 const Router = () => {
@@ -42,32 +47,39 @@ const Router = () => {
 
                 <Switch>
                     <Route path='/' exact component={Index} />
-                    <Route path='/index-2' component={Index2} />
+                    {/* <Route path='/index-2' component={Index2} />
                     <Route path='/index-3' component={Index3} />
                     <Route path='/index-4' component={Index4} />
                     <Route path='/onepage' component={Onepage} />
-                    <Route path='/rtl-home' component={RtlHome} />
+                    <Route path='/rtl-home' component={RtlHome} /> */}
                     <Route path='/about' component={About} />
                     <Route path='/blog-details' component={BlogDestails} />
                     <Route path='/blog-grid' component={BlogGrid} />
                     <Route path='/blog-standard' component={BlogStandard} />
                     <Route path='/careers' component={Careers} />
-                    <Route path='/checkout' component={Checkout} />
+                    {/* <Route path='/checkout' component={Checkout} /> */}
                     <Route path='/contact' component={Contact} />
                     <Route path='/faq' component={Faq} />
-                    <Route path='/portfolio-1' component={Portfolio1} />
+                    {/* <Route path='/portfolio-1' component={Portfolio1} />
                     <Route path='/portfolio-2' component={Portfolio2} />
                     <Route path='/portfolio-details' component={PortfolioDetails} />
-                    <Route path='/product-details' component={ProductDetails} />
+                    <Route path='/product-details' component={ProductDetails} /> */}
                     <Route path='/reports' component={Reports} />
                     <Route path='/services' component={Services} />
-                    <Route path='/services-details' component={ServicesDetails} />
+                    {/* <Route path='/services-details' component={ServicesDetails} />
                     <Route path='/shop' component={Shop} />
                     <Route path='/shopping-cart' component={ShoppingCart} />
                     <Route path='/team-details' component={TeamDetails} />
                     <Route path='/team' component={Team} />
-                    <Route path='/test' component={Testimonial1} />
+                    <Route path='/test' component={Testimonial1} /> */}
                     <Route exact path='/units' component={Units} />
+                    <Route exact path='/units/edoinnovates' component={EdoInnovates} />
+                    <Route exact path='/units/edojobcenter' component={EdoJobcenter} />
+                    <Route exact path='/units/edofac' component={EdoFAC} />
+                    <Route exact path='/units/msme' component={MSME} />
+                    <Route exact path='/units/entrepreneurship' component={Entrepreneurship} />
+                    <Route exact path='/units/edocreativehub' component={CreativeHub} />
+                    <Route exact path='/units/vocationalskills' component={VocationalSkills} />
 
                     <Route path='/*' component={Error404} />
 
