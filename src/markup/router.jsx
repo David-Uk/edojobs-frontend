@@ -70,8 +70,9 @@ const Router = () => {
                     <Route path='/shop' component={Shop} />
                     <Route path='/shopping-cart' component={ShoppingCart} />
                     <Route path='/team-details' component={TeamDetails} />
-                    <Route path='/team' component={Team} />
+                    
                     <Route path='/test' component={Testimonial1} /> */}
+                    <Route path='/team' component={Team} />
                     <Route exact path='/units' component={Units} />
                     <Route exact path='/units/edoinnovates' component={EdoInnovates} />
                     <Route exact path='/units/edojobcenter' component={EdoJobcenter} />
