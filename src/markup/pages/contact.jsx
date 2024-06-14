@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Header from '../layout/header'
 import Footer from '../layout/footer'
 import GoogleMaps from "simple-react-google-maps";
+import { Helmet } from 'react-helmet';
 
 const aboutbg = require('./../../assets/images/photo/slide8.jpeg');
 
@@ -15,6 +16,11 @@ class Contact extends Component {
     render() {
         return (
             <>
+                <Helmet>
+                    <meta charSet="utf-8" />
+                    <meta name="description" content="Have any enquiries? Feel free to reach us by email, social media, by phone or any of our physical locations" />
+                    <title>Edojobs Official Website | Contact</title>
+                </Helmet>
                 <Header />
 
 

@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import Header from '../../layout/header'
 import Footer from '../../layout/footer'
+import { Helmet } from 'react-helmet';
 
 const aboutbg = require('./../../../assets/images/sublets/images/vocationalskills/028.jpg');
 const addbg = require('./../../../assets/images/background/image-15.jpg');
@@ -11,6 +12,11 @@ const addbg = require('./../../../assets/images/background/image-15.jpg');
 const VocationalSkills = () => {
     return (
         <>
+            <Helmet>
+                <meta charSet="utf-8" />
+                <meta name="description" content="The Vocational Training and Skills Development unit of the Edo State Skills Development Agency is responsible for implementing vocational skills training" />
+                <title>Edojobs Official Website | Vocational Skills</title>
+            </Helmet>
             <Header />
 
             {/* Page Banner Section */}

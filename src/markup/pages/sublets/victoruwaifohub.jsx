@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import Header from '../../layout/header'
 import Footer from '../../layout/footer'
+import { Helmet } from 'react-helmet';
 
 const aboutbg = require('./../../../assets/images/sublets/images/creativehub/016.jpg');
 const addbg = require('./../../../assets/images/background/image-15.jpg');
@@ -11,6 +12,11 @@ const addbg = require('./../../../assets/images/background/image-15.jpg');
 const CreativeHub = () => {
     return (
         <>
+            <Helmet>
+                <meta charSet="utf-8" />
+                <meta name="description" content="Edo Creative hub was designed to help creatives to showcase their talent to the world and offer a place to build valuable connections" />
+                <title>Edojobs Official Website | Edo Creative Hub</title>
+            </Helmet>
             <Header />
 
             {/* Page Banner Section */}

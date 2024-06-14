@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import Header from '../../layout/header'
 import Footer from '../../layout/footer'
+import { Helmet } from 'react-helmet';
 
 const aboutbg = require('./../../../assets/images/sublets/images/fac/ss30.png');
 const addbg = require('./../../../assets/images/background/image-15.jpg');
@@ -11,6 +12,11 @@ const addbg = require('./../../../assets/images/background/image-15.jpg');
 const EdoFAC = () => {
     return (
         <>
+            <Helmet>
+                <meta charSet="utf-8" />
+                <meta name="description" content="Edo Food and Agricultural Cluster (EdoFAC) is the Agricultural unit of Edojobs leveraging Agriculture for job creation in the State" />
+                <title>Edojobs Official Website | Edo FAC</title>
+            </Helmet>
             <Header />
 
             {/* Page Banner Section */}

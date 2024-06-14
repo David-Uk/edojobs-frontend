@@ -8,6 +8,7 @@ import Footer from '../layout/footer';
 
 import HomeSlider2 from '../element/home-slider2';
 import Testimonial3 from '../element/testimonial3';
+import { Helmet } from 'react-helmet';
 
 
 class Index extends Component {
@@ -16,6 +17,11 @@ class Index extends Component {
     render() {
         return (
             <>
+                <Helmet>
+                    <meta charSet="utf-8" />
+                    <meta name="description" content="The Edo State Skills Development Agency (Edojobs) was set up by the Edo State Government to “provide the supply of and attract the demand for the highly skilled talent in Edo State.” The agency is a fulfilment of the mandate of Governor Godwin Obaseki's administration to Edo people to create 200,000 jobs in his first term in office." />
+                    <title>Edojobs Official Website</title>
+                </Helmet>
                 <Header />
 
                 {/* <!--Search Popup--> */}

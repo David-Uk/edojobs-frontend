@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import Header from '../../layout/header'
 import Footer from '../../layout/footer'
+import { Helmet } from 'react-helmet';
 
 const aboutbg = require('./../../../assets/images/sublets/images/jobcenter/004.jpg');
 const addbg = require('./../../../assets/images/background/image-15.jpg');
@@ -11,6 +12,11 @@ const addbg = require('./../../../assets/images/background/image-15.jpg');
 const EdoJobCenter = () => {
     return (
         <>
+            <Helmet>
+                <meta charSet="utf-8" />
+                <meta name="description" content="The Job Matching and Placement unit was set up to achieve the goal of the agency which is to provide the supply of and attract the demand for highly skilled talent" />
+                <title>Edojobs Official Website | Edo Job Center</title>
+            </Helmet>
             <Header />
 
             {/* Page Banner Section */}

@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import Header from '../../layout/header'
 import Footer from '../../layout/footer'
+import { Helmet } from 'react-helmet';
 
 const aboutbg = require('./../../../assets/images/sublets/images/innovates/001.jpg');
 const addbg = require('./../../../assets/images/background/image-15.jpg');
@@ -11,6 +12,11 @@ const addbg = require('./../../../assets/images/background/image-15.jpg');
 const EdoInnovates = () => {
     return (
         <>
+            <Helmet>
+                <meta charSet="utf-8" />
+                <meta name="description" content="It is an initiative of the Edo State Skills Development Agency under His Excellency, Gov. Godwin Obaseki; commissioned on the 14th of June, 2018 by Professor Yemi Osinbanjo" />
+                <title>Edojobs Official Website | Edo Innovates</title>
+            </Helmet>
             <Header />
 
             {/* Page Banner Section */}

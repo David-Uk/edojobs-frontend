@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import Header from '../../layout/header'
 import Footer from '../../layout/footer'
+import { Helmet } from 'react-helmet';
 
 const aboutbg = require('./../../../assets/images/sublets/images/entrepreneurship/005.jpg');
 const addbg = require('./../../../assets/images/background/image-15.jpg');
@@ -11,6 +12,11 @@ const addbg = require('./../../../assets/images/background/image-15.jpg');
 const Entrepreneurship = () => {
     return (
         <>
+            <Helmet>
+                <meta charSet="utf-8" />
+                <meta name="description" content="This initiative is concerned with entrepreneurship development. It was set-up to enhance the skills and entrepreneurial knowledge of Edo business owners to boost the pace at which new ventures are created" />
+                <title>Edojobs Official Website | Entrepreneurship</title>
+            </Helmet>
             <Header />
 
             {/* Page Banner Section */}

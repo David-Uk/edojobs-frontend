@@ -14,7 +14,8 @@ class Team extends Component {
         return (
             <>
                 <Helmet>
-
+                    <meta charSet="utf-8" />
+                    <title>Edojobs Official Website - Team Members</title>
                 </Helmet>
                 <Header />
 
