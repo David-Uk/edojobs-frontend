@@ -91,66 +91,11 @@ class About extends Component {
                 {/* Team Section */}
 
                 {/* Services Section Four */}
-                <section class="services-section-four services-section-about">
-                    <div class="auto-container">
-                        <div class="sec-title text-center">
-                            <div class="sub-title">What we do</div>
-                            <h3>Services</h3>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="icon-box">
-                                    <div class="icon"><img src={require('../../assets/images/icons/icon-3.png')} alt="" /></div>
-                                    <h4>JOB MATCHING & PLACEMENT</h4>
-                                    <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="icon-box">
-                                    <div class="icon"><img src={require('../../assets/images/icons/icon-21.png')} alt="" /></div>
-                                    <h4>Finance Division</h4>
-                                    <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="icon-box">
-                                    <div class="icon"><img src={require('../../assets/images/icons/icon-4.png')} alt="" /></div>
-                                    <h4>Insurance & Planning</h4>
-                                    <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="icon-box">
-                                    <div class="icon"><img src={require('../../assets/images/icons/icon-22.png')} alt="" /></div>
-                                    <h4>Family Case</h4>
-                                    <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="icon-box">
-                                    <div class="icon"><img src={require('../../assets/images/icons/icon-5.png')} alt="" /></div>
-                                    <h4>Financial Strategy</h4>
-                                    <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="icon-box">
-                                    <div class="icon"><img src={require('../../assets/images/icons/icon-23.png')} alt="" /></div>
-                                    <h4>Financial Planning</h4>
-                                    <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
 
                 {/* Sponsors Section */}
 
 
                 <Brand1 />
-
-
-
 
 
 

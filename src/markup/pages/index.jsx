@@ -9,6 +9,7 @@ import Footer from '../layout/footer';
 import HomeSlider2 from '../element/home-slider2';
 import Testimonial3 from '../element/testimonial3';
 import { Helmet } from 'react-helmet';
+import Brand1 from '../element/brand1';
 
 
 class Index extends Component {
@@ -27,6 +28,8 @@ class Index extends Component {
                 {/* <!--Search Popup--> */}
 
                 <HomeSlider2 />
+
+
 
                 <section class="welcome-section pt-0">
                     <div class="auto-container">
@@ -67,6 +70,8 @@ class Index extends Component {
                         </div>
                     </div>
                 </section>
+
+                <Brand1 />
 
                 {/* About Edojobs */}
                 <section class="about-section-two">

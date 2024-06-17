@@ -46,12 +46,14 @@ const Information = [
 
 ]
 
+const doc = '../../assets/docs/brochure march edition.pdf'
+
 function Items() {
     return (
         <>
             {Information &&
                 Information.map((item) => (
-                    <div class="news-block-one col-lg-4">
+                    <div style={{}} class="news-block-one col-lg-4">
                         <div class="inner-box">
                             <div class="image"><img src={item.imageUrl} alt="" /></div>
                             <div class="lower-content">
@@ -61,7 +63,7 @@ function Items() {
                                     {/* <li><Link to={'/#'}><i class="far fa-user"></i>By Admin</Link></li> */}
                                 </ul>
                                 <h3>{item.heading}</h3>
-                                <div class="text">{item.details}</div>
+                                <div class="text">{item.details.slice(0, 80) + '...'}</div>
                                 <a className='category' target='_blank' rel='noopener noreferrer' href={item.link}>Read More</a>
                             </div>
 
@@ -100,6 +102,48 @@ const Reports = () => {
 
             </section>
             {/* <!--End Banner Section --> */}
+
+            <section class="about-section-two">
+                <div class="auto-container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <div class="content-box wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
+                                <div class="sec-title">
+                                    <div class="sub-title">Reports</div>
+                                    {/* <h2>We Work With <br />You To Address</h2> */}
+                                    <div class="text">
+                                        <p>
+                                            <h3>OUR BROCHURE</h3>
+                                            <h4><strong>What we've achieved.</strong> </h4><br />
+
+                                            The Edo State Skills Development Agency (Edojobs) was set up by the Edo State Government to “provide the supply of and attract the demand for highly skilled talent in Edo State”.
+                                            The agency is a fulfillment of the mandate of Governor Godwin Obaseki's promise to Edo people to create 200,000 jobs in his first term in office with the visions to go beyond job creation to unlocking the potential of youth in Edo State by igniting the hope within them and ensuring that they could excel on their chosen career path.
+                                            We started in 2016 with an enumeration of citizens who were actively in search of a job, this yielded over 210,000 registrations and in 2017 Edojobs was officially launched. Since 2019, EdoJobs had setup Edo Innovates, Edo Production Centre, and many other programs that were actively connecting young people to jobs and building a community that was bringing hope and opportunity to our industrious young people. Edojobs became an agency in 2019 when it was signed into law and Ukinebo Dare was appointed as the pioneer the Managing Director of the Agency.
+                                            Click to discover the first 5 years of impact at Edo State Skills Development Agency.
+                                        </p></div>
+                                </div>
+                                <div class="author-info">
+                                    <div class="wrapper-box">
+                                        <ul class="post-meta">
+                                            <li><a target='_blank' className='btn theme-btn' rel='noopener noreferrer' href={doc}><i class="far fa-calendar-alt"></i>March Edition Brochure</a></li>
+                                        </ul>
+                                        {/* <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod..</div> */}
+                                    </div>
+                                    {/* <div class="signature"><img src={require('../../assets/images/resource/signature-2.png')} alt="" /></div> */}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="image-wrapper wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1200ms">
+                                <div class="image-one">
+                                    <img src={require('../../assets/images/photo/impact.jpg')} alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
 
             {/* <!-- News Section --> */}
             <section class="news-section">

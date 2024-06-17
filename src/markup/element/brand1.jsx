@@ -8,27 +8,67 @@ import "slick-carousel/slick/slick-theme.css";
 
 const Brand1_content = [
     {
-        thumb: require('../../assets/images/resource/client-1.png'),
+        thumb: require('../../assets/images/partners/1.png'),
 
     },
     {
-        thumb: require('../../assets/images/resource/client-2.png'),
+        thumb: require('../../assets/images/partners/2.png'),
 
     },
     {
-        thumb: require('../../assets/images/resource/client-3.png'),
+        thumb: require('../../assets/images/partners/3.png'),
 
     },
     {
-        thumb: require('../../assets/images/resource/client-4.png'),
+        thumb: require('../../assets/images/partners/4.png'),
 
     },
     {
-        thumb: require('../../assets/images/resource/client-5.png'),
+        thumb: require('../../assets/images/partners/5.png'),
 
     },
     {
-        thumb: require('../../assets/images/resource/client-2.png'),
+        thumb: require('../../assets/images/partners/6.png'),
+
+    },
+    {
+        thumb: require('../../assets/images/partners/7.png'),
+
+    },
+    {
+        thumb: require('../../assets/images/partners/8.png'),
+
+    },
+    {
+        thumb: require('../../assets/images/partners/9.png'),
+
+    },
+    {
+        thumb: require('../../assets/images/partners/10.png'),
+
+    },
+    {
+        thumb: require('../../assets/images/partners/11.png'),
+
+    },
+    {
+        thumb: require('../../assets/images/partners/12.png'),
+
+    },
+    {
+        thumb: require('../../assets/images/partners/13.png'),
+
+    },
+    {
+        thumb: require('../../assets/images/partners/14.png'),
+
+    },
+    {
+        thumb: require('../../assets/images/partners/15.png'),
+
+    },
+    {
+        thumb: require('../../assets/images/partners/16.png'),
 
     },
 ]
@@ -44,8 +84,8 @@ class Brand1 extends Component {
             infinite: true,
             speed: 500,
             slidesToShow: 5,
-            slidesToScroll: 1,
-            autoplay: false
+            slidesToScroll: 5,
+            autoplay: true
         };
         return (
             <>
