@@ -46,7 +46,7 @@ const Information = [
 
 ]
 
-const doc = '../../assets/docs/brochure march edition.pdf'
+const doc = 'https://www.dropbox.com/scl/fi/dqxt9s35xfn7sk98idytv/brochure-march-edition.pdf?rlkey=7vmhtvnc634offevmdclmtuso&st=so9vn0ns&dl=0'
 
 function Items() {
     return (
@@ -77,6 +77,9 @@ function Items() {
 
 
 const Reports = () => {
+    const onResumeClick = () => {
+        window.open(doc);
+    }
 
     return (
         <>
@@ -125,7 +128,7 @@ const Reports = () => {
                                 <div class="author-info">
                                     <div class="wrapper-box">
                                         <ul class="post-meta">
-                                            <li><a target='_blank' className='btn theme-btn' rel='noopener noreferrer' href={doc}><i class="far fa-calendar-alt"></i>March Edition Brochure</a></li>
+                                            <li><a href={doc} download className='btn theme-btn'><i class="far fa-calendar-alt"></i>March Edition Brochure</a></li>
                                         </ul>
                                         {/* <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod..</div> */}
                                     </div>
