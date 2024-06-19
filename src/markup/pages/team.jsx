@@ -7,6 +7,55 @@ import { Helmet } from 'react-helmet';
 const aboutbg = require('./../../assets/images/slides/003.jpg');
 const wellcomebg1 = require('./../../assets/images/resource/image-1.jpg');
 
+const Items = [
+    {
+        imageUrl: require('../../assets/images/team/01.jpg'),
+        name: 'Ukinebo Dare',
+        boardRole: 'Board Chairman',
+        careerDesignation: <strong>Head, Career Transition <br />Mastercard Foundation</strong>
+
+    },
+    {
+        imageUrl: require('../../assets/images/team/07.jpg'),
+        name: 'Victor Ehikhamenor',
+        boardRole: 'Board Member',
+        careerDesignation: <strong>International Visual Artist <br />Photographer & Writer</strong>
+    },
+    {
+        imageUrl: require('../../assets/images/team/04.jpg'),
+        name: 'Victor Asemota',
+        boardRole: 'Board Member',
+        careerDesignation: <strong>Founder <br />Swifta Systems & Services</strong>
+    },
+    {
+        imageUrl: require('../../assets/images/team/06.jpg'),
+        name: 'Ivie Temitayo-Ibitoye',
+        boardRole: 'Board Member',
+        careerDesignation: <strong>Founder Work in Nigeria<br />Head Empoyee Relations, Sahara Group</strong>
+    },
+    {
+        imageUrl: require('../../assets/images/team/05.jpg'),
+        name: 'Osarumen Akenzua',
+        boardRole: 'Board Member',
+        careerDesignation: <strong>Programme Manager <br />LEAP Africa</strong>
+
+    },
+    {
+        imageUrl: require('../../assets/images/team/02.jpg'),
+        name: 'Anita Eribo',
+        boardRole: 'Board Member',
+        careerDesignation: <strong>MD <br />Edo State Skill Development Agency</strong>
+
+    },
+    {
+        imageUrl: require('../../assets/images/team/03.jpg'),
+        name: 'Caroline Ikuenobe',
+        boardRole: 'Board Secretary',
+        careerDesignation: <strong>Seasoned Administrative <br />Officer</strong>
+
+    }
+]
+
 class Team extends Component {
 
 
@@ -90,123 +139,27 @@ class Team extends Component {
                         </div>
                         <div class="row">
                             {/* <!-- Team Block One --> */}
-                            <div class="col-lg-4 team-block-one">
-                                <div class="inner-box">
-                                    <div class="image"><img src={require('../../assets/images/team/01.jpg')} alt="" /></div>
-                                    <div class="content">
-                                        <div class="designation">Board Chairman</div>
-                                        <h3>Ukinebo Dare</h3>
-                                        <p><strong>Head, Career Transition <br />Mastercard Foundation</strong></p>
-                                        {/* <ul class="social-links">
+                            {Items.map(item => (
+                                <div class="col-lg-4 team-block-one">
+                                    <div class="inner-box">
+                                        <div class="image"><img src={item.imageUrl} alt="Profile" /></div>
+                                        <div class="content">
+                                            <div class="designation">{item.boardRole}</div>
+                                            <h3>{item.name}</h3>
+                                            <p>{item.careerDesignation}</p>
+                                            {/* <ul class="social-links">
                                             <li><Link to={'/#'}><span class="fab fa-facebook-f"></span></Link></li>
                                             <li><Link to={'/#'}><span class="fab fa-twitter"></span></Link></li>
                                             <li><Link to={'/#'}><span class="fab fa-behance"></span></Link></li>
                                             <li><Link to={'/#'}><span class="fab fa-youtube"></span></Link></li>
                                         </ul> */}
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+
+                            ))}
                             {/* <!-- Team Block One --> */}
-                            <div class="col-lg-4 team-block-one">
-                                <div class="inner-box">
-                                    <div class="image"><img src={require('../../assets/images/team/02.jpg')} alt="" /></div>
-                                    <div class="content">
-                                        <div class="designation">Board Member</div>
-                                        <h3>Anita Eribo</h3>
-                                        <p><strong>Managing Director <br />Edo State Skill Development Agency</strong></p>
-                                        {/* <ul class="social-links">
-                                            <li><Link to={'/#'}><span class="fab fa-facebook-f"></span></Link></li>
-                                            <li><Link to={'/#'}><span class="fab fa-twitter"></span></Link></li>
-                                            <li><Link to={'/#'}><span class="fab fa-behance"></span></Link></li>
-                                            <li><Link to={'/#'}><span class="fab fa-youtube"></span></Link></li>
-                                        </ul> */}
-                                    </div>
-                                </div>
-                            </div>
-                            {/* <!-- Team Block One --> */}
-                            <div class="col-lg-4 team-block-one">
-                                <div class="inner-box">
-                                    <div class="image"><img src={require('../../assets/images/team/03.jpg')} alt="" /></div>
-                                    <div class="content">
-                                        <div class="designation">Board Secretary</div>
-                                        <h3>Caroline Ikuenobe</h3>
-                                        <p><strong>Seasoned Administrative <br />Officer</strong></p>
-                                        {/* <ul class="social-links">
-                                            <li><Link to={'/#'}><span class="fab fa-facebook-f"></span></Link></li>
-                                            <li><Link to={'/#'}><span class="fab fa-twitter"></span></Link></li>
-                                            <li><Link to={'/#'}><span class="fab fa-behance"></span></Link></li>
-                                            <li><Link to={'/#'}><span class="fab fa-youtube"></span></Link></li>
-                                        </ul> */}
-                                    </div>
-                                </div>
-                            </div>
-                            {/* <!-- Team Block One --> */}
-                            <div class="col-lg-4 team-block-one">
-                                <div class="inner-box">
-                                    <div class="image"><img src={require('../../assets/images/team/04.jpg')} alt="" /></div>
-                                    <div class="content">
-                                        <div class="designation">Board Member</div>
-                                        <h3>Victor Asemota</h3>
-                                        <p><strong>Founder <br />Swifta Systems & Services</strong></p>
-                                        {/* <ul class="social-links">
-                                            <li><Link to={'/#'}><span class="fab fa-facebook-f"></span></Link></li>
-                                            <li><Link to={'/#'}><span class="fab fa-twitter"></span></Link></li>
-                                            <li><Link to={'/#'}><span class="fab fa-behance"></span></Link></li>
-                                            <li><Link to={'/#'}><span class="fab fa-youtube"></span></Link></li>
-                                        </ul> */}
-                                    </div>
-                                </div>
-                            </div>
-                            {/* <!-- Team Block One --> */}
-                            <div class="col-lg-4 team-block-one">
-                                <div class="inner-box">
-                                    <div class="image"><img src={require('../../assets/images/team/05.jpg')} alt="" /></div>
-                                    <div class="content">
-                                        <div class="designation">Board Member</div>
-                                        <h3>Osarumen Akenzua</h3>
-                                        <p><strong>Program Manager, <br />LEAP Africa</strong></p>
-                                        {/* <ul class="social-links">
-                                            <li><Link to={'/#'}><span class="fab fa-facebook-f"></span></Link></li>
-                                            <li><Link to={'/#'}><span class="fab fa-twitter"></span></Link></li>
-                                            <li><Link to={'/#'}><span class="fab fa-behance"></span></Link></li>
-                                            <li><Link to={'/#'}><span class="fab fa-youtube"></span></Link></li>
-                                        </ul> */}
-                                    </div>
-                                </div>
-                            </div>
-                            {/* <!-- Team Block One --> */}
-                            <div class="col-lg-4 team-block-one">
-                                <div class="inner-box">
-                                    <div class="image"><img src={require('../../assets/images/team/06.jpg')} alt="" /></div>
-                                    <div class="content">
-                                        <div class="designation">Board Member</div>
-                                        <h3>Ivie Temitayo-Ibitoye</h3>
-                                        <p><strong>Founder, Work in Nigeria <br />Head Employee Relations, Sahara Group</strong></p>
-                                        {/* <ul class="social-links">
-                                            <li><Link to={'/#'}><span class="fab fa-facebook-f"></span></Link></li>
-                                            <li><Link to={'/#'}><span class="fab fa-twitter"></span></Link></li>
-                                            <li><Link to={'/#'}><span class="fab fa-behance"></span></Link></li>
-                                            <li><Link to={'/#'}><span class="fab fa-youtube"></span></Link></li>
-                                        </ul> */}
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 team-block-one">
-                                <div class="inner-box">
-                                    <div class="image"><img src={require('../../assets/images/team/07.jpg')} alt="" /></div>
-                                    <div class="content">
-                                        <div class="designation">Board Member</div>
-                                        <h3>Victor Ehikhamenor</h3>
-                                        <p><strong>International Visual Artist <br />Photographer & Writer</strong></p>
-                                        {/* <ul class="social-links">
-                                            <li><Link to={'/#'}><span class="fab fa-facebook-f"></span></Link></li>
-                                            <li><Link to={'/#'}><span class="fab fa-twitter"></span></Link></li>
-                                            <li><Link to={'/#'}><span class="fab fa-behance"></span></Link></li>
-                                            <li><Link to={'/#'}><span class="fab fa-youtube"></span></Link></li>
-                                        </ul> */}
-                                    </div>
-                                </div>
-                            </div>
+
                         </div>
                     </div>
                 </section>
