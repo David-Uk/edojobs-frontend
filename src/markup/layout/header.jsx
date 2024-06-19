@@ -79,7 +79,7 @@ class Header extends Component {
                                             <div class="icon-box"><i class="flaticon-call-1"></i></div>
                                             <div class="text">Phone Number</div>
 
-                                            <h4><a target='_blank' rel='noopener noreferrer' href="tel:+2349013722775">+2349013722775</a></h4>
+                                            <h4><a target='_blank' rel='noopener noreferrer' href="tel:+2349026354382">+2349026354382</a></h4>
                                         </div>
                                         <div class="single-info">
                                             <div class="icon-box"><i class="flaticon-email-4"></i></div>

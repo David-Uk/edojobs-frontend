@@ -52,15 +52,18 @@ class About extends Component {
                                         {/* <h2>We Work With <br />You To Address</h2> */}
                                         <div class="text">
                                             <p>
-                                                The Edo State Skills Development Agency (Edojobs) was set up by the Edo State Government to “provide the supply of and attract the demand for the highly skilled talent in Edo State.” The agency is a fulfilment of the mandate of Governor Godwin Obaseki’s administration to Edo people to create 200,000 jobs in his first term in office.
+                                                The Edo State Skills Development Agency (Edojobs) was set up by the Edo State Government to “provide the supply of and attract the demand for the highly skilled talent in Edo State.” The agency is a fulfilment of the mandate of Governor Godwin Obaseki’s administration to Edo people to create 200,000 jobs in his first term in office. <br />
 
-                                                The vision was to go beyond job creation to unlock the potential of the Edo youths by igniting the hope within them and ensuring that they could excel on their chosen career path.
+                                                The vision was to go beyond job creation to unlock the potential of the Edo youths by igniting the hope within them and ensuring that they could excel on their chosen career path. <br />
 
-                                                Edojobs started in 2016 with an enumeration of citizens who were actively in search of a job; this yielded over 210,000 registrations, and in 2017, Edojobs was officially launched. By 2019, Edojobs had set up Edo Innovates, Edo Production Centre and many other projects and programmes that were actively connecting young people to jobs and building a community that brought hope and opportunity to the industrious young people.
+                                                Edojobs started in 2016 with an enumeration of citizens who were actively in search of a job; this yielded over 210,000 registrations, and in 2017, Edojobs was officially launched. By 2019, Edojobs had set up Edo Innovates, Edo Production Centre and many other projects and programmes that were actively connecting young people to jobs and building a community that brought hope and opportunity to the industrious young people. <br />
 
-                                                Edojobs became an agency in 2019 when it was signed into law and Ukinebo Dare was appointed the pioneering Managing Director of the agency. Since then, Edojobs has delivered on this vision and exceeded expectations and covered milestones.
+                                                Edojobs became an agency in 2019 when it was signed into law and Ukinebo Dare was appointed the pioneering Managing Director of the agency. Since then, Edojobs has delivered on this vision and exceeded expectations and covered milestones. <br />
 
-                                                Today, the young and old both in rural and urban communities have benefitted from different programmes ranging from innovative and in-demand skills such as software engineering, fashion designing, digital skills, catering and event planning, employability training, agriculture for sustainable food production and much more.
+                                                Today, the young and old both in rural and urban communities have benefitted from different programmes ranging from innovative and in-demand skills such as software engineering, fashion designing, digital skills, catering and event planning, employability training, agriculture for sustainable food production and much more. <br />
+
+                                                Through various partnerships with the private sector, Federal and Multilateral  Organisations, the job creation programs have reached over 300,000 beneficiaries across various sectors such as
+                                                Technology,  Job Matching and placement,  Vocational Skill Acquisition  and Entrepreneurship, Agriculture,  Production  and Manufacturing, and Entertainment. <br />
                                             </p></div>
                                     </div>
                                     <div class="author-info">
