@@ -37,6 +37,8 @@ import CreativeHub from './pages/sublets/victoruwaifohub';
 import EdoFAC from './pages/sublets/fac';
 import Entrepreneurship from './pages/sublets/entrepreneurship';
 import MSME from './pages/sublets/msme';
+import Sample from './pages/sample';
+import Partners from './pages/partners';
 
 
 const Router = () => {
@@ -64,6 +66,7 @@ const Router = () => {
                     <Route path='/portfolio-2' component={Portfolio2} />
                     <Route path='/portfolio-details' component={PortfolioDetails} />
                     <Route path='/product-details' component={ProductDetails} /> */}
+                    <Route path='/partners' component={Partners} />
                     <Route path='/publications' component={Reports} />
                     <Route path='/services' component={Services} />
                     {/* <Route path='/services-details' component={ServicesDetails} />
@@ -72,6 +75,7 @@ const Router = () => {
                     <Route path='/team-details' component={TeamDetails} />
                     
                     <Route path='/test' component={Testimonial1} /> */}
+                    <Route path='/sample' component={Sample} />
                     <Route path='/team' component={Team} />
                     <Route exact path='/units' component={Units} />
                     <Route exact path='/units/edoinnovates' component={EdoInnovates} />

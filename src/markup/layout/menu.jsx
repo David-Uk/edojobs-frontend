@@ -35,6 +35,7 @@ class Menu extends Component {
                                 <li><Link to={'/about'}>About Us</Link></li>
                                 <li><Link to={'/services'}>Services</Link></li>
                                 <li><Link to={'/team'}>Team</Link></li>
+                                <li><Link to={'/partners'}>Partners</Link></li>
                             </ul>
                         </li>
                         <li class="dropdown"><Link to='/units'>Departments</Link>

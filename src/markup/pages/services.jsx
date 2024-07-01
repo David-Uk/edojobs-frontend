@@ -38,6 +38,7 @@ const Services = () => {
                 <div class="auto-container">
                     <div class="row">
                         {/* <!-- Services Block One --> */}
+
                         <div class="service-block-one col-lg-4">
                             <div class="inner-box">
                                 <div class="icon"><span class="flaticon-team"></span><span class="round-shape"></span></div>
