@@ -77,7 +77,7 @@ const TeamMembers = [
         careerDesignation: <strong>Entrepreneurship<br />Unit</strong>
     },
     {
-        imageUrl: require('../../assets/images/team/management/04.JPG'),
+        imageUrl: require('../../assets/images/team/management/04.jpg'),
         name: 'Ogunleye Joseph',
         boardRole: 'Head',
         careerDesignation: <strong>Job Matching<br /> & Placement</strong>
