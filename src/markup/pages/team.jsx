@@ -58,38 +58,38 @@ const Items = [
 
 const TeamMembers = [
     {
-        imageUrl: require('../../assets/images/team/management/01.jpg'),
+        imageUrl: require('../../assets/images/team/managers/01.jpg'),
         name: 'Eribo Anita Itohan',
         boardRole: 'Managing Director',
         careerDesignation: <strong>Edo State Skills<br />Development Agency</strong>
 
     },
     {
-        imageUrl: require('../../assets/images/team/management/02.jpg'),
+        imageUrl: require('../../assets/images/team/managers/02.jpg'),
         name: 'Ehikhuenmen Elijah',
         boardRole: 'Head',
         careerDesignation: <strong>Skills Development<br />Unit</strong>
     },
     {
-        imageUrl: require('../../assets/images/team/management/03.jpg'),
+        imageUrl: require('../../assets/images/team/managers/03.jpg'),
         name: 'Majekodunmi Segun',
         boardRole: 'Head',
         careerDesignation: <strong>Entrepreneurship<br />Unit</strong>
     },
     {
-        imageUrl: require('../../assets/images/team/management/04.jpg'),
+        imageUrl: require('../../assets/images/team/managers/04.jpg'),
         name: 'Ogunleye Joseph',
         boardRole: 'Head',
         careerDesignation: <strong>Job Matching<br /> & Placement</strong>
     },
     {
-        imageUrl: require('../../assets/images/team/management/05.jpg'),
+        imageUrl: require('../../assets/images/team/managers/05.jpg'),
         name: 'Ehiremen Success',
         boardRole: 'Head',
         careerDesignation: <strong>Edo Food<br />& Agric Cluster</strong>
     },
     {
-        imageUrl: require('../../assets/images/team/management/06.jpg'),
+        imageUrl: require('../../assets/images/team/managers/06.jpg'),
         name: 'Umeri Valentina',
         boardRole: 'Head',
         careerDesignation: <strong>Media<br />& Communications Unit</strong>
