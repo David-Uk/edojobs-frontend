@@ -5,7 +5,7 @@ import Footer from '../layout/footer'
 import { Helmet } from 'react-helmet';
 
 const aboutbg = require('./../../assets/images/slides/003.jpg');
-const wellcomebg1 = require('./../../assets/images/resource/image-1.jpg');
+// const wellcomebg1 = require('./../../assets/images/resource/image-1.jpg');
 
 const Items = [
     {
