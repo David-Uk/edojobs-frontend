@@ -61,7 +61,7 @@ class Menu extends Component {
                             <ul>
                                 <li><Link to={'/publications'}>Publications</Link></li>
                                 <li><Link to={'/blog-standard'}>Blog</Link></li>
-                                <li><Link to={'/blog-details'}>Gallery</Link></li>
+                                {/* <li><Link to={'/blog-details'}>Gallery</Link></li> */}
                                 <li><Link to={'/faq'}>FAQ</Link></li>
                             </ul>
                         </li>

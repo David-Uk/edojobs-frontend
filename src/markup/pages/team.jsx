@@ -40,13 +40,13 @@ const Items = [
         careerDesignation: <strong>Programme Manager <br />LEAP Africa</strong>
 
     },
-    {
-        imageUrl: require('../../assets/images/team/02.jpg'),
-        name: 'Anita Eribo',
-        boardRole: 'Board Member',
-        careerDesignation: <strong>MD <br />Edo State Skill Development Agency</strong>
+    // {
+    //     imageUrl: require('../../assets/images/team/02.jpg'),
+    //     name: 'Anita Eribo',
+    //     boardRole: 'Board Member',
+    //     careerDesignation: <strong>MD <br />Edo State Skill Development Agency</strong>
 
-    },
+    // },
     {
         imageUrl: require('../../assets/images/team/03.jpg'),
         name: 'Caroline Ikuenobe',
@@ -54,6 +54,46 @@ const Items = [
         careerDesignation: <strong>Seasoned Administrative <br />Officer</strong>
 
     }
+]
+
+const TeamMembers = [
+    {
+        imageUrl: require('../../assets/images/team/management/01.jpg'),
+        name: 'Eribo Anita Itohan',
+        boardRole: 'Managing Director',
+        careerDesignation: <strong>Edo State Skills<br />Development Agency</strong>
+
+    },
+    {
+        imageUrl: require('../../assets/images/team/management/02.jpg'),
+        name: 'Ehikhuenmen Elijah',
+        boardRole: 'Head',
+        careerDesignation: <strong>Skills Development<br />Unit</strong>
+    },
+    {
+        imageUrl: require('../../assets/images/team/management/03.jpg'),
+        name: 'Majekodunmi Segun',
+        boardRole: 'Head',
+        careerDesignation: <strong>Entrepreneurship<br />Unit</strong>
+    },
+    {
+        imageUrl: require('../../assets/images/team/management/04.JPG'),
+        name: 'Ogunleye Joseph',
+        boardRole: 'Head',
+        careerDesignation: <strong>Job Matching<br /> & Placement</strong>
+    },
+    {
+        imageUrl: require('../../assets/images/team/management/05.jpg'),
+        name: 'Ehiremen Success',
+        boardRole: 'Head',
+        careerDesignation: <strong>Edo Food<br />& Agric Cluster</strong>
+    },
+    {
+        imageUrl: require('../../assets/images/team/management/06.jpg'),
+        name: 'Umeri Valentina',
+        boardRole: 'Head',
+        careerDesignation: <strong>Media<br />& Communications Unit</strong>
+    },
 ]
 
 class Team extends Component {
@@ -130,12 +170,12 @@ class Team extends Component {
                     </div>
                 </section>
 
-                {/* <!-- Team Section --> */}
+                {/* <!-- Board Section --> */}
                 <section class="team-section gray-bg">
                     <div class="auto-container">
                         <div class="sec-title text-center">
-                            <div class="sub-title">Our Team</div>
-                            <h2>Leadership Team</h2>
+                            <div class="sub-title">The Board</div>
+                            <h2>Board Members</h2>
                         </div>
                         <div class="row">
                             {/* <!-- Team Block One --> */}
@@ -164,6 +204,39 @@ class Team extends Component {
                     </div>
                 </section>
 
+                {/* Team Members*/}
+                <section class="team-section gray-bg">
+                    <div class="auto-container">
+                        <div class="sec-title text-center">
+                            <div class="sub-title">Management</div>
+                            <h2>Team Members</h2>
+                        </div>
+                        <div class="row">
+                            {/* <!-- Team Block One --> */}
+                            {TeamMembers.map(item => (
+                                <div class="col-lg-4 team-block-one">
+                                    <div class="inner-box">
+                                        <div class="image"><img src={item.imageUrl} alt="Profile" /></div>
+                                        <div class="content">
+                                            <div class="designation">{item.boardRole}</div>
+                                            <h3>{item.name}</h3>
+                                            <p>{item.careerDesignation}</p>
+                                            {/* <ul class="social-links">
+                                            <li><Link to={'/#'}><span class="fab fa-facebook-f"></span></Link></li>
+                                            <li><Link to={'/#'}><span class="fab fa-twitter"></span></Link></li>
+                                            <li><Link to={'/#'}><span class="fab fa-behance"></span></Link></li>
+                                            <li><Link to={'/#'}><span class="fab fa-youtube"></span></Link></li>
+                                        </ul> */}
+                                        </div>
+                                    </div>
+                                </div>
+
+                            ))}
+                            {/* <!-- Team Block One --> */}
+
+                        </div>
+                    </div>
+                </section>
 
                 <Footer />
             </>
