@@ -21,7 +21,34 @@ const programs = [
 
             Don't Wait – Apply Today!</p>,
         registrationUrl: 'https://tinyurl.com/Internship-Program-Jobseekers'
-    }
+    },
+    {
+        title: 'EdoCARES GRANTS now open for applications! ',
+        imageUrl: require('../../assets/images/programmes/edocares.jpeg'),
+        intro: 'The Edo State Government Godwin Obaseki, is proud to announce the 4th Phase of the EdoCARES Grants.',
+        description: <p>The Edo State Government, led by His Excellency, Godwin Obaseki, is proud to announce the 4th Phase of the EdoCARES Grants. <br />
+            This fantastic opportunity which is in partnership with the World Bank and Federal Government of Nigeria offers a threshold to structure your businesses with nonrefundable tokens. <br />
+            Don't miss out! 🤝🌍 <br />
+            Application is a breeze!🤩 <br />
+
+            1️⃣ Online: Visit https://plax.ng/edo <br />
+
+            2️⃣ In-person: Visit your nearest Edo Job Centre for guidance. <br />
+
+
+            **
+            📚 Review Eligibility Criteria and guidelines carefully before applying. Choose the right category for your business! <br />
+
+            ••••••• <br />
+            Enquiries Call: 07049296670 / 09056556134 <br />
+
+            ⏰ Application deadline: Friday, 26th July, 2024. <br />
+
+            Open to all Edo State resident business owners. Remember, this is a grant – no repayment is required! <br />
+
+            Note: Application DOES NOT guarantee approval. Strict screening applies.</p>,
+        registrationUrl: 'https://plax.ng/edo'
+    },
 ]
 
 
