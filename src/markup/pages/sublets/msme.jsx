@@ -37,7 +37,7 @@ const MSME = () => {
             <div class="portfolio-details">
                 <div class="auto-container">
                     <div class="top-content">
-                        <div class="image-box"><img src={require('../../../assets/images/sublets/images/msme/002.jpg')} alt="" /></div>
+                        <div class="image-box"><img src={require('../../../assets/images/sublets/images/msme/001.jpg')} alt="" /></div>
                         {/* <div class="single-project-info">02                            <h3>Project Details</h3>
                             <ul>
                                 <li> </li>
@@ -81,10 +81,10 @@ const MSME = () => {
                     <div class="text">The Edo State MSME Fund, set up by the Edo State Government,in collaboration with the Bank of Industry (BOI), and managed by the agency, is focused on fostering economic growth and supporting local businesses in Edo State.</div>
                     <div class="row">
                         <div class="col-lg-6">
-                            <div class="image-box"><img src={require('../../../assets/images/sublets/images/msme/008.jpg')} alt="" /></div>
+                            <div class="image-box"><img src={require('../../../assets/images/sublets/images/msme/002.jpg')} alt="" /></div>
                         </div>
                         <div class="col-lg-6">
-                            <div class="image-box"><img src={require('../../../assets/images/sublets/images/msme/014.jpg')} alt="" /></div>
+                            <div class="image-box"><img src={require('../../../assets/images/sublets/images/msme/003.jpg')} alt="" /></div>
                         </div>
                     </div>
                     <div class="text">The primary objective of this initiative is to empower entrepreneurs and small business owners in Edo State by offering them access to single-digit interest financing options. Through this program, eligible businesses (SME) can secure loans
