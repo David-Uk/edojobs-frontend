@@ -90,7 +90,7 @@ class Header extends Component {
                                 </div>
 
                                 <div class="top-right">
-                                    <Link to={'#'} class="theme-btn btn-style-two"><span class="btn-title">Upcoming Programs</span></Link>
+                                    <Link to='/upcoming' class="theme-btn btn-style-two"><span class="btn-title">Upcoming Programs</span></Link>
                                 </div>
                             </div>
                         </div>

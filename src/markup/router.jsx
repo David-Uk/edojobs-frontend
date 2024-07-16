@@ -39,6 +39,7 @@ import Entrepreneurship from './pages/sublets/entrepreneurship';
 import MSME from './pages/sublets/msme';
 import Sample from './pages/sample';
 import Partners from './pages/partners';
+import Upcoming from './pages/upcoming';
 
 
 const Router = () => {
@@ -53,15 +54,15 @@ const Router = () => {
                     <Route path='/index-3' component={Index3} />
                     <Route path='/index-4' component={Index4} />
                     <Route path='/onepage' component={Onepage} /> */}
-
                     <Route path='/about' component={About} />
                     <Route path='/blog-details' component={BlogDestails} />
                     <Route path='/blog-grid' component={BlogGrid} />
+
                     <Route path='/blog-standard' component={BlogStandard} />
-                    <Route path='/careers' component={Careers} />
                     {/* <Route path='/checkout' component={Checkout} /> */}
                     <Route path='/contact' component={Contact} />
                     <Route path='/faq' component={Faq} />
+                    <Route path='/careers' component={Careers} />
                     {/* <Route path='/portfolio-1' component={Portfolio1} />
                     <Route path='/portfolio-2' component={Portfolio2} />
                     <Route path='/portfolio-details' component={PortfolioDetails} />
@@ -85,6 +86,7 @@ const Router = () => {
                     <Route exact path='/units/entrepreneurship' component={Entrepreneurship} />
                     <Route exact path='/units/edocreativehub' component={CreativeHub} />
                     <Route exact path='/units/vocationalskills' component={VocationalSkills} />
+                    <Route exact path='/upcoming' component={Upcoming} />
 
                     <Route path='/*' component={Error404} />
 

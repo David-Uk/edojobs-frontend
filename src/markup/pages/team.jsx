@@ -209,7 +209,7 @@ class Team extends Component {
                     <div class="auto-container">
                         <div class="sec-title text-center">
                             <div class="sub-title">Management</div>
-                            <h2>Team Members</h2>
+                            <h2>Management Team</h2>
                         </div>
                         <div class="row">
                             {/* <!-- Team Block One --> */}
