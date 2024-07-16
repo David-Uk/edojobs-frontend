@@ -8,6 +8,7 @@ const aboutbg = require('./../../assets/images/gallery/slide3.jpeg');
 
 const programs = [
     {
+        key: 1,
         title: 'Edojobs Internship & Apprenticeship',
         imageUrl: require('../../assets/images/programmes/internship.jpeg'),
         intro: 'Are you a job seeker eager to gain hands-on experience in your preferred career path?',
@@ -23,6 +24,7 @@ const programs = [
         registrationUrl: 'https://tinyurl.com/Internship-Program-Jobseekers'
     },
     {
+        key: 2,
         title: 'EdoCARES GRANTS now open for applications! ',
         imageUrl: require('../../assets/images/programmes/edocares.jpeg'),
         intro: 'The Edo State Government Godwin Obaseki, is proud to announce the 4th Phase of the EdoCARES Grants.',
@@ -54,9 +56,18 @@ const programs = [
 
 const Upcoming = () => {
     const [show, setShow] = useState(false);
+    const [selectedItem, setSelectedItem] = useState(null);
 
-    const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
+    const handleShow = (item) => {
+        setSelectedItem(item);
+        setShow(true);
+    };
+
+    const handleClose = () => {
+        setShow(false);
+        setSelectedItem(null);
+    };
+
 
     return (
         <>
@@ -80,34 +91,33 @@ const Upcoming = () => {
             {/* <!--End Banner Section --> */}
 
             {/* <!-- News Section --> */}
-            <section class="news-section">
-                <div class="auto-container">
-                    <div class="row">
-                        {/* <!-- News Block One --> */}
-                        {programs.map(item => (
-                            <div class="news-block-one col-lg-4">
-                                <div class="inner-box">
-                                    <div class="image"><Link to={'/#'}><img src={item.imageUrl} alt="" /></Link></div>
-                                    <div class="lower-content">
-                                        {/* <div class="category">Business</div> */}
-                                        {/* <ul class="post-meta">
-                                        <li><Link to={'/#'}><i class="far fa-calendar-alt"></i>24th March 2020</Link></li>
-                                        <li><Link to={'/#'}><i class="far fa-user"></i>By Admin</Link></li>
-                                    </ul> */}
-                                        <h3><Link to={'#'}>{item.title}</Link></h3>
-                                        <div class="text">{item.intro}</div>
-                                        <button className='category' onClick={handleShow}>Read More</button>
+            <div>
+                <section className="news-section">
+                    <div className="auto-container">
+                        <div className="row">
+                            {programs.map((item) => (
+                                <div key={item.key} className="news-block-one col-lg-4">
+                                    <div className="inner-box">
+                                        <div className="image">
+                                            <Link to={`/#${item.imageUrl}`}>
+                                                <img src={item.imageUrl} alt="" />
+                                            </Link>
+                                        </div>
+                                        <div className="lower-content">
+                                            <h3><Link to={`/#${item.title}`}>{item.title}</Link></h3>
+                                            <div className="text">{item.intro}</div>
+                                            <button className="category" onClick={() => handleShow(item)}>Read More</button>
+                                        </div>
                                     </div>
                                 </div>
-                                <ProgramModal show={show} handleClose={handleClose} item={item} />
-                            </div>
-                        ))}
-
-
+                            ))}
+                        </div>
                     </div>
-                </div>
-            </section>
-
+                </section>
+                {selectedItem && (
+                    <ProgramModal show={show} handleClose={handleClose} item={selectedItem} />
+                )}
+            </div>
 
 
 
