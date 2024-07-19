@@ -23,7 +23,7 @@ function ProgramModal({ show, handleClose, item }) {
                                     </ul> */}
                                 <h3>{item.title}</h3>
                                 <div class="text">{item.description}</div>
-                                <a style={{ color: '#fff' }} className='category' href={item.registratioUrl} >Read More</a>
+                                <a style={{ color: '#fff' }} target='_blank' rel='noopener noreferrer' className='category' href={item.registrationUrl}>Register Here</a>
                             </div>
                         </div>
                     </div>
