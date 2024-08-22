@@ -51,6 +51,41 @@ const programs = [
             Note: Application DOES NOT guarantee approval. Strict screening applies.</p>,
         registrationUrl: 'https://plax.ng/edo'
     },
+    {
+        key: 3,
+        title: 'Edojobs Business Digitization Programme',
+        imageUrl: require('../../assets/images/programmes/businessdigital.jpeg'),
+        intro: 'The Edo State Government Godwin Obaseki, is proud to announce the 4th Phase of the EdoCARES Grants.',
+        description: <p>
+            CALL FOR APPLICATION. 🚨 🚨 🚨 <br />
+
+            Are you a business owner looking to stay ahead in the competitive market? Do you want to learn how to leverage digital technologies to drive business growth and success? 🤔 Then, this opportunity is for you. <br />
+
+            EdoJobs is organizing a 6-weeks Business Digitalization Training Program, designed to help businesses like yours thrive in this digital age. <br />
+
+            BENEFITS: <br />
+            •Increase Sales and boost profits with digital strategies <br />
+            •Expanding your market reach by attracting more customers online <br />
+            •Enhanced customer satisfaction and engagement through digital tools <br /> <br />
+
+            During the 6-week training program, you'll gain practical skills and knowledge in: <br />
+            •Digital marketing and social media advertising <br />
+            •E-commerce and online sales strategies <br />
+            •Content creation and visual branding <br />
+            •Video editing and product photography. <br /> <br />
+
+            Seize this opportunity to transform your business and gain a competitive edge in the market! <br />
+
+            Register now with the link 👇 <br />
+            https://tinyurl.com/EdojobsBizDigitalization <br />
+
+            Application Deadline: Monday, 10th June, 2024. <br />
+
+            For more enquiries: please call - 08125286095 <br />
+        </p>,
+        registrationUrl: 'https://tinyurl.com/EdojobsBizDigitalization'
+
+    }
 ]
 
 
