@@ -85,6 +85,29 @@ const programs = [
         </p>,
         registrationUrl: 'https://tinyurl.com/EdojobsBizDigitalization'
 
+    },
+    {
+        key: 4,
+        title: 'Edojobs Agricultural Training',
+        imageUrl: require('../../assets/images/programmes/businessdigital.jpeg'),
+        intro: 'The Edo State Government Godwin Obaseki, is proud to announce the 4th Phase of the EdoCARES Grants.',
+        description: <p>
+            The high nutritional value of vegetables make them highly appreciated for human consumption and lucrative on both small and large scale farming. <br />
+
+            Vegetable farming provides a promising economic opportunity and plays a vital role on the food front. <br />
+
+            Now, you can sign up for Edojobs training on Vegetable Cultivation and learn the improved techniques for maximum farm produce. <br />
+            EDO CENTRAL <br />
+            ✓ Location: Esan North-east LGA <br />
+            ✓ Date: 6th September, 2024 <br />
+            ✓ Time: 10:00 am <br /><br />
+
+            For enquiries, please call 08131861068 <br />
+
+            This training is brought to you free of charge by the Edo State Government.<br />
+        </p>,
+        registrationUrl: 'https://tinyurl.com/EDOJOBS-AGRICULTURAL-TRAINING'
+
     }
 ]
 
