@@ -89,7 +89,7 @@ const programs = [
     {
         key: 4,
         title: 'Edojobs Agricultural Training',
-        imageUrl: require('../../assets/images/programmes/businessdigital.jpeg'),
+        imageUrl: require('../../assets/images/programmes/vegetable.jpeg'),
         intro: 'The Edo State Government Godwin Obaseki, is proud to announce the 4th Phase of the EdoCARES Grants.',
         description: <p>
             The high nutritional value of vegetables make them highly appreciated for human consumption and lucrative on both small and large scale farming. <br />
