@@ -40,6 +40,7 @@ import MSME from './pages/sublets/msme';
 import Sample from './pages/sample';
 import Partners from './pages/partners';
 import Upcoming from './pages/upcoming';
+import TheHeritage from './pages/theheritage';
 
 
 const Router = () => {
@@ -87,6 +88,7 @@ const Router = () => {
                     <Route exact path='/units/edocreativehub' component={CreativeHub} />
                     <Route exact path='/units/vocationalskills' component={VocationalSkills} />
                     <Route exact path='/upcoming' component={Upcoming} />
+                    <Route exact path='/upcoming/minartandculture-heritage100training' component={TheHeritage} />
 
                     <Route path='/*' component={Error404} />
 

@@ -111,6 +111,53 @@ const programs = [
     }
 ]
 
+const heritage = {
+    title: 'The Heritage 100 Training Programme',
+    imageUrl: require('../../assets/images/programmes/theheritage.jpg'),
+    link: '/upcoming/minartandculture-heritage100training',
+    intro: 'Open Call for The Heritage 100 Training Program: A Unique Opportunity to Shape the Future of Edo State’s Cultural Heritage',
+    description: <p>
+        <h2>        Open Call for The Heritage 100 Training Program: A Unique Opportunity to Shape the Future of Edo State’s Cultural Heritage</h2>
+        <p>
+            Are you passionate about preserving culture and history? Do you want to be part of Edo State’s transformation into a global cultural hub? The Edo State Ministry of Arts, Culture, and Tourism is excited to announce the Heritage 100 Training Program, an exceptional opportunity for 100 young people to gain useful skills and contribute to the success of the Benin Cultural District. <br />
+            <h3>Program Overview</h3>
+            The Heritage 100 Training Program is designed to equip participants with the skills needed to support Edo State’s vibrant cultural and tourism sectors. Participants will undergo intensive training, with the possibility of gaining permanent employment within the Edo State Ministry of Arts, Culture, and Tourism (MATC) or working as freelance heritage support officers. <br />
+            Key Training Areas Include: <br />
+            •	Introduction to Edo State's Cultural Heritage <br />
+            •	Tour Guide Training <br />
+            •	Cultural and Event Management <br />
+            •	Cultural Digital Skills Development <br />
+            •	Customer Service and Hospitality <br />
+            •	Career Development <br /> <br />
+            <h4>Program Benefits</h4>
+            •	Duration: 2 weeks of hands-on, immersive training. <br />
+            •	Skills Development: Acquire critical skills to excel in Edo State’s growing cultural and tourism industries. <br />
+            •	Employment Opportunities: Stand a chance to be absorbed into the Edo State Ministry of Arts, Culture, and Tourism or explore freelance career paths as a registered heritage support officer. <br />
+            •	Cultural Impact: Play a key role in the preservation and promotion of Edo State’s rich heritage. <br />
+            •	Becoming a cultural Ambassador: Represent Edo State's heritage with pride in local and international platforms. <br />
+            Who Can Apply? <br />
+            We are looking for passionate young people who: <br />
+            •	Are aged between 18 and 40 with at a minimum of S.S.C.E, B.A(HONS.) B.Sc., B.A or HND in any discipline. <br />
+            •	Have a deep interest in Edo State's cultural heritage. <br />
+            •	Are enthusiastic about building a career in the cultural and tourism sectors. <br />
+            •	Are eager to learn, develop new skills, and contribute to Edo State’s transformation. <br />
+        </p>
+        <p>
+            <h4>How to Apply</h4>
+            Applications are open to all eligible young people across Edo State. To apply, please submit your application through the Edo State Skills Acquisition Agency (EdoJobs) portal by following the steps below: <br />
+            •	Visit the EdoJobs website: <a href="https://edojobs.info/upcoming/minartandculture-heritage100training"></a> <br />
+            •	Click on the Heritage 100 Training Program banner. <br />
+            •	Complete the application form and upload your supporting documents. <br />
+            Application Deadline: October 10, 2024. Training Begins October 14 2024 <br />
+            For further inquiries about the program, please contact: <br />
+            •	Edo State Ministry of Arts, Culture, and Tourism, 6th floor, Secretariat Complex, Sapele Road, Benin City <br />
+            Don’t Miss This Chance! <br />
+            Be part of a program that blends tradition with innovation, empowering you to contribute to the future of Edo State’s cultural and tourism industries. Apply today and take the first step towards a rewarding career in preserving Edo State’s heritage! <br />
+
+        </p>
+    </p>
+}
+
 
 const Upcoming = () => {
     const [show, setShow] = useState(false);
@@ -169,6 +216,23 @@ const Upcoming = () => {
                                     </div>
                                 </div>
                             ))}
+
+
+                            <div className="news-block-one col-lg-4">
+                                <div className="inner-box">
+                                    <div className="image">
+                                        <Link to={heritage.link}>
+                                            <img src={heritage.imageUrl} alt="" />
+                                        </Link>
+                                    </div>
+                                    <div className="lower-content">
+                                        <h3><Link to={heritage.link}>{heritage.title}</Link></h3>
+                                        <div className="text">{heritage.intro}</div>
+                                        <Link to={heritage.link} className="category">Read More</Link>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </section>
@@ -176,7 +240,6 @@ const Upcoming = () => {
                     <ProgramModal show={show} handleClose={handleClose} item={selectedItem} />
                 )}
             </div>
-
 
 
             <Footer />
